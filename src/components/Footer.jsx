@@ -8,7 +8,11 @@ const FOOTER_LINKS = [
   { label: "News", path: "/news" },
 ];
 
-const LEGAL_LINKS = ["Privacy", "Terms", "Support"];
+const LEGAL_LINKS = [
+  { label: "Privacy", path: "/privacy" },
+  { label: "Terms", path: "/terms" },
+  { label: "Support", path: "/support" },
+];
 
 export default function Footer() {
   return (
@@ -78,13 +82,13 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="copyright">© 2026 Football League. All rights reserved.</p>
-          <div className="legal-links">
-            {LEGAL_LINKS.map((l) => (
-              <a key={l} href="#" className="legal-link">
-                {l}
-              </a>
-            ))}
-          </div>
+         <div className="legal-links">
+  {LEGAL_LINKS.map((l) => (
+    <Link key={l.path} to={l.path} className="legal-link">
+      {l.label}
+    </Link>
+  ))}
+</div>
         </div>
       </div>
     </footer>
