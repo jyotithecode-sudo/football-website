@@ -581,7 +581,7 @@ span.lang-icon svg {
   align-items: center;
   gap: 8px;
   color: #f51466;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   text-decoration: none;   /* NEW */
 }
@@ -776,4 +776,51 @@ span.lang-icon svg {
 .page {
   min-height: 60vh;
   padding: 80px 0;
+}
+
+
+
+/* ---------- News page css ---------- */
+.news-page {
+  width: 100%;
+  background-color: #050b0e;
+  background-image: url("/images/news-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 64px 0 80px;
+}
+.news-page-inner {
+  width: min(1220px, calc(100% - 40px));
+  margin: 0 auto;
+}
+.news-page-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.news-page-head .eyebrow { margin: 0; }
+.news-page-head .section-title { margin: 0; font-size: 56px; }
+.news-page-head .section-text {
+  margin: 0;
+  font-size: 20px;
+  color: #e5e7eb;
+}
+.news-page .news-grid {
+  margin-top: 0;
+  row-gap: 24px;
+}
+.load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.load-more {
+  width: auto;
+  padding: 0 32px;
+}
+
+@media (min-width: 1200px) {
+  .news-page-head .section-title { font-size: 66px; }
 }
