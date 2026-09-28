@@ -6,7 +6,7 @@ export default function CommunityPage() {
         <h1 className="section-title">
           JOIN THE <span className="text-pink">COMMUNITY</span>
         </h1>
-        <p className="section-text">Community page ka content yahan aayega.</p>
+        <p className="section-text"></p>
       </div>
     </section>
   );

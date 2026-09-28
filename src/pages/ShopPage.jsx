@@ -6,7 +6,7 @@ export default function ShopPage() {
         <h1 className="section-title">
           WEAR <span className="text-pink">THE GAME</span>
         </h1>
-        <p className="section-text">Shop page ka content yahan aayega.</p>
+        <p className="section-text"></p>
       </div>
     </section>
   );

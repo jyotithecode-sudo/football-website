@@ -6,7 +6,7 @@ export default function GamePage() {
         <h1 className="section-title">
           PLAY <span className="text-pink">FOOTBALL</span>
         </h1>
-        <p className="section-text">Game page ka content yahan aayega.</p>
+        <p className="section-text"></p>
       </div>
     </section>
   );
