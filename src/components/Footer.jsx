@@ -82,13 +82,13 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="copyright">© 2026 Football League. All rights reserved.</p>
-         <div className="legal-links">
-  {LEGAL_LINKS.map((l) => (
-    <Link key={l.path} to={l.path} className="legal-link">
-      {l.label}
-    </Link>
-  ))}
-</div>
+          <div className="legal-links">
+            {LEGAL_LINKS.map((l) => (
+              <Link key={l.path} to={l.path} className="legal-link">
+                {l.label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </footer>
