@@ -11,6 +11,9 @@ import FeaturesPage from "./pages/FeaturesPage";
 import CommunityPage from "./pages/CommunityPage";
 import ShopPage from "./pages/ShopPage";
 import NewsPage from "./pages/NewsPage";
+import PrivacyPage from "./pages/PrivacyPage";
+import TermsPage from "./pages/TermsPage";
+import SupportPage from "./pages/SupportPage";
 
 export default function App() {
   return (
@@ -25,6 +28,9 @@ export default function App() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="/support" element={<SupportPage />} />   
       </Routes>
 
       <Footer />
