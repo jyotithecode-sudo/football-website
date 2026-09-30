@@ -195,7 +195,9 @@ span.feature-card-badge {
   font-weight: 700;
   color: var(--white-color);
 }
-
+.feature-card:hover {
+    transform: translateY(-4px);
+}
 .feature-card-desc {
   margin-top: 8px;
   font-family: "Inter", sans-serif;
