@@ -9,12 +9,18 @@
   --text-muted: #9ca3af;
   --white-color: #ffffff;
   --border-color: #666969;
+
+  --overlay-color: #0a0e16;
+  --font-primary: "Inter", sans-serif;
+  --font-heading: Oswald, sans-serif;
 }
 
 /* ---------- Features hero ---------- */
+
 .feature-card:hover {
-    border: 1px solid #ec1a6d;
+  border: 1px solid var(--primary-color);
 }
+
 .features-hero {
   position: relative;
   width: 100%;
@@ -65,7 +71,7 @@
 .intro-text {
   margin-top: 16px;
   max-width: 632px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
   font-size: 20px;
   line-height: 1.6;
   color: var(--text-light);
@@ -74,10 +80,10 @@
 /* ---------- Feature card ---------- */
 
 .feature-card {
-    border: 1px solid var(--border-color);
-    flex-direction: column;
-    display: flex;
-    transition: transform .2s;
+  border: 1px solid var(--border-color);
+  flex-direction: column;
+  display: flex;
+  transition: transform 0.2s;
 }
 
 .content-box {
@@ -177,13 +183,17 @@
   place-items: center;
 }
 
-/* ---------- Feature card content ---------- */
+/* ---------- Hide badge ---------- */
+
 span.feature-card-badge {
-    display: none;
+  display: none;
 }
+
+/* ---------- Feature card content ---------- */
+
 .feature-card-tag {
   margin: 16px 0 0;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -193,17 +203,19 @@ span.feature-card-badge {
 
 .feature-card-title {
   margin: 8px 0 0;
-  font-family: Oswald, sans-serif;
+  font-family: var(--font-heading);
   font-size: 20px;
   font-weight: 700;
   color: var(--white-color);
 }
+
 .feature-card:hover {
-    transform: translateY(-4px);
+  transform: translateY(-4px);
 }
+
 .feature-card-desc {
   margin-top: 8px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
   font-size: 14px;
   line-height: 1.6;
   color: var(--text-muted);
@@ -211,7 +223,7 @@ span.feature-card-badge {
 
 .feature-card-label {
   margin: 10px 0 0;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-primary);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1.5px;
