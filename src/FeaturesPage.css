@@ -110,8 +110,8 @@
 /* ---------- Immersive match experience intro + cards ---------- */
 
 .match-intro {
-  background: var(--background-color);
-  padding: 48px 20px 64px;
+    background: var(--background-color);
+    padding: 60px 20px 60px;
 }
 
 .match-intro-inner {
