@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500;600;700&family=Permanent+Marker&display=swap"); /* NEW: Oswald 500 */
 
+/* ---------- Theme colors ---------- */
+:root {
+  --primary-color: #ec1a6d;
+  --primary-hover: #d4165f;
+  --secondary-color: #2dd4bf;
+}
+
 /* ---------- Reset & base ---------- */
 * {
   box-sizing: border-box;
@@ -41,7 +48,7 @@ a {
   overflow-x: clip;
 }
 
-.text-pink { color: #ec1a6d; }
+.text-pink { color: var(--primary-color); }
 
 /* ---------- Shared container: 1220px content ---------- */
 .navbar-inner,
@@ -108,16 +115,16 @@ a {
   text-decoration: none;   /* NEW */
   display: inline-block;   /* NEW */
 }
-.nav-link:hover { color: #F51466; }
+.nav-link:hover { color: var(--primary-color); }
 .nav-link-active {
-  color: #F51466;
+  color: var(--primary-color);
 }
 .nav-link-active::after {
   content: "";
   position: absolute;
   left: 0; right: 0; bottom: -17px;
   height: 2px;
-  background: #ec1a6d;
+  background: var(--primary-color);
 }
 .navbar-actions {
   display: none;
@@ -137,7 +144,7 @@ span.lang-icon svg {
 }
 .lang-btn:hover { color: #fff; }
 .btn-primary {
-  background: #ec1a6d;
+  background: var(--primary-color);
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -145,7 +152,7 @@ span.lang-icon svg {
   width: 117px;
   height: 47px;
 }
-.btn-primary:hover { background: #d4165f; }
+.btn-primary:hover { background: var(--primary-hover); }
 .btn-full { width: 100%; margin-top: 8px; }
 .menu-toggle {
   color: #fff;
@@ -229,7 +236,7 @@ span.lang-icon svg {
   letter-spacing: 5.78px;
   color: #f4f5f3;
 }
-.eyebrow-pink { color: #ec1a6d; letter-spacing: 3px; font-size: 22px; }
+.eyebrow-pink { color: var(--primary-color); letter-spacing: 3px; font-size: 22px; }
 .eyebrow-muted { color: #6b7280; letter-spacing: 3px; font-size: 12px; }
 
 .hero-title {
@@ -256,7 +263,7 @@ span.lang-icon svg {
   margin-top: 24px;
   height: 4px;
   width: 64px;
-  background: #ec1a6d;
+  background: var(--primary-color);
 }
 
 .stats {
@@ -353,8 +360,8 @@ span.lang-icon svg {
   height: 4px;
   width: 40px;
 }
-.underline-pink { background: #ec1a6d; }
-.underline-teal { background: #2dd4bf; }
+.underline-pink { background: var(--primary-color); }
+.underline-teal { background: var(--secondary-color); }
 
 @media (min-width: 640px) {
   .pillars-grid { grid-template-columns: repeat(3, 1fr); }
@@ -563,7 +570,7 @@ span.lang-icon svg {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 3.5px;
-  color: #f51466;
+  color: var(--primary-color);
 }
 .news-text .section-title {
   margin: 0;
@@ -580,7 +587,7 @@ span.lang-icon svg {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #f51466;
+  color: var(--primary-color);
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;   /* NEW */
@@ -701,7 +708,7 @@ span.lang-icon svg {
   color: #e5e7eb;
   transition: color 0.2s ease;
 }
-.footer-link:hover { color: #ec1a6d; }
+.footer-link:hover { color: var(--primary-color); }
 
 .footer-actions {
   display: flex;
@@ -725,7 +732,7 @@ span.lang-icon svg {
 }
 .social-btn:hover {
   background: none;
-  color: #ec1a6d;
+  color: var(--primary-color);
   transform: translateY(-2px);
 }
 
@@ -752,7 +759,7 @@ span.lang-icon svg {
   color: #e5e7eb;
   transition: color 0.2s ease;
 }
-.legal-link:hover { color: #ec1a6d; }
+.legal-link:hover { color: var(--primary-color); }
 
 @media (min-width: 640px) {
   .footer-bottom {
