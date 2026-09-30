@@ -152,6 +152,7 @@ span.feature-card-badge {
 
 .feature-card-image-wrap {
   position: relative;
+
   overflow: hidden;
   background: var(--card-background);
 }
