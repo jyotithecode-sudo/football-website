@@ -35,39 +35,6 @@ export default function FeaturesPage() {
           </p>
         </div>
       </div>
-
-      <div className="page-inner match-intro">
-        <div className="match-intro-inner">
-          <div className="match-intro-text">
-            <p className="eyebrow eyebrow-pink">
-              IMMERSIVE MATCH EXPERIENCE
-            </p>
-
-            <h2 className="section-title">
-              FEEL EVERY <span className="text-pink">MATCH.</span>
-            </h2>
-          </div>
-
-          <p className="intro-text match-intro-paragraph">
-            Realistic stadiums and responsive gameplay make every game night
-            feel close to the pitch.
-          </p>
-        </div>
-
-        <div className="feature-cards">
-          {CARDS.map((card) => (
-            <div key={card.label} className="feature-card">
-              <img
-                src={card.image}
-                alt={card.label}
-                className="feature-card-image"
-              />
-
-              <span className="feature-card-badge">✓</span>
-            </div>
-          ))}
-        </div>
-      </div>
     </section>
   );
 }
