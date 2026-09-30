@@ -88,9 +88,11 @@ export default function FeaturesPage() {
                     <span className="feature-card-badge">✓</span>
                   )}
                 </div>
+                <div class="content-box">
                 <p className="feature-card-tag">{card.tag}</p>
                 <h3 className="feature-card-title">{card.title}</h3>
                 <p className="feature-card-desc">{card.description}</p>
+                </div>
               </div>
             ))}
           </div>
