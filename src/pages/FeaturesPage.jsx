@@ -11,7 +11,7 @@ const CARDS = [
 
 export default function FeaturesPage() {
   return (
-    <section className="page">
+    <section className="custom-features-section">
       <div className="page-inner features-hero">
         <img
           src="/images/features-hero-bg.png"
