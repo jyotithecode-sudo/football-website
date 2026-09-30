@@ -7,6 +7,27 @@ const CARDS = [
   { image: "/images/feature-stadium.jpg", label: "Stadium & Atmosphere" },
   { image: "/images/feature-gameplay.jpg", label: "Gameplay" },
   { image: "/images/feature-tactics.jpg", label: "Tactics" },
+  {
+    image: "/images/feature-stadium.jpg",
+    tag: "ATMOSPHERE",
+    title: "AUTHENTIC MATCH ATMOSPHERE",
+    description: "New stadiums, dynamic pitches, live commentary in 16 languages.",
+    badge: true,
+  },
+  {
+    image: "/images/feature-gameplay.jpg",
+    tag: "CONTROL",
+    title: "INTUITIVE CONTROLS",
+    description: "Smooth, mocap-based animations and improved goalkeeper reactions.",
+    badge: false,
+  },
+  {
+    image: "/images/feature-tactics.jpg",
+    tag: "STRATEGY",
+    title: "TACTICS STYLE",
+    description: "A flexible playing-instruction system, with more upgrades coming.",
+    badge: true,
+  },
 ];
 
 export default function FeaturesPage() {
