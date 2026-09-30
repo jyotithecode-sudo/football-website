@@ -9,8 +9,11 @@
   background-color: #0a0e16;
 }
 .features-hero-content {
+    padding: 75px 0px !important;
+}
+.features-hero-content {
     width: 1220px !important;
-    padding: 0px;
+   
 }
 .features-hero-bg {
   position: absolute;
