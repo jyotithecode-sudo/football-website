@@ -21,7 +21,14 @@
   overflow: hidden;
   background-color: var(--background-color);
 }
-
+.feature-card {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid #666969;
+}
+.content-box {
+    padding: 24px;
+}
 .features-hero-content {
   padding: 75px 0px !important;
 }
@@ -111,6 +118,7 @@
 span.feature-card-badge {
     display: none;
 }
+
 .match-intro {
     background: var(--background-color);
     padding: 60px 10px 60px;
