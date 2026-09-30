@@ -61,14 +61,14 @@
   .features-hero-content .hero-title { font-size: 60px; }
 }
 @media (min-width: 1024px) {
-  .features-hero-content { padding: 72px 32px; }
+
   .features-hero-content .hero-title { font-size: 84px; }
 }
 @media (min-width: 1440px) {
   .features-hero { min-height: 481px; }
   .features-hero-content {
     max-width: 1220px;
-    padding: 75px 32px;
+    padding: 75px 0px;
     text-align: left;
   }
   .features-hero-content .hero-title { font-size: 106px; }
