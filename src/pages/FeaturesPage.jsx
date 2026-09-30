@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "../FeaturesPage.css";
 
 const CARDS = [
   { image: "/images/feature-stadium.jpg", label: "Stadium & Atmosphere" },
