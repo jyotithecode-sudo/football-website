@@ -72,9 +72,10 @@
 /* ---------- Feature card ---------- */
 
 .feature-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--border-color);
+    border: 1px solid var(--border-color);
+    flex-direction: column;
+    display: flex;
+    transition: transform .2s;
 }
 
 .content-box {
