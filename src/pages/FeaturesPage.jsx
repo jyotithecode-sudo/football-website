@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import "../FeaturesPage.css";
 
+
 const CARDS = [
   { image: "/images/feature-stadium.jpg", label: "Stadium & Atmosphere" },
   { image: "/images/feature-gameplay.jpg", label: "Gameplay" },
