@@ -157,11 +157,110 @@ span.feature-card-badge {
   background: var(--card-background);
 }
 
+.match-intro {
+    background: var(--background-color);
+    padding: 60px 20px 60px;
+}
+ 
+.match-intro-inner {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.match-intro-paragraph {
+  margin-top: 0;
+}
+ 
+@media (min-width: 768px) {
+  .match-intro-inner {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+ 
+  .match-intro-paragraph {
+    max-width: 360px;
+    text-align: left;
+  }
+}
+ 
+.feature-cards {
+  max-width: 1220px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+ 
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+ 
+.feature-card-image-wrap {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--card-background);
+}
+ 
 .feature-card-image {
-    object-fit: cover;
-    height: 220px;
-    display: block;
-    width: 438px !important;
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+ 
+.feature-card-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: 13px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+ 
+.feature-card-tag {
+  margin: 16px 0 0;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent-teal, #2dd4bf);
+}
+ 
+.feature-card-title {
+  margin: 8px 0 0;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+ 
+.feature-card-desc {
+  margin-top: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+ 
+@media (min-width: 768px) {
+  .feature-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .feature-card-badge {
