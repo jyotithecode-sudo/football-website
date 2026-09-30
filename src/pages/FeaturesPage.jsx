@@ -14,7 +14,7 @@ export default function FeaturesPage() {
     <section className="page">
       <div className="page-inner features-hero">
         <img
-          src="/images/features-hero-bg.jpg"
+          src="/images/hero-bg.png"
           alt="Player in a stadium"
           className="features-hero-bg"
         />
