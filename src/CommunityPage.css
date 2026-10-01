@@ -187,3 +187,267 @@
     font-size: 14px;
   }
 }
+/* =========================================
+   SOCIAL SECTION (Find Your Home End.)
+   ========================================= */
+
+/* Full width (1440) */
+.social-section {
+  width: 100%;
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  background: #02060b;
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.social-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;                        /* Figma gap 40 */
+  box-sizing: border-box;
+}
+
+/* ---------- Header ---------- */
+.social-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.social-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-eyebrow {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff0a5a;
+}
+
+.social-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.social-title-pink {
+  color: #ff0a5a;
+}
+
+.social-paragraph {
+  width: 360px;
+  max-width: 100%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* ---------- Cards (Desktop: 3 cards) ---------- */
+.social-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;                        /* Figma gap 24 */
+  padding: 40px 24px;               /* Figma: 40 top/bottom, 24 left/right */
+  box-sizing: border-box;
+  border: 1px solid #666969;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 20, 20, 0.9) 0%,
+    rgba(10, 40, 30, 0.35) 100%
+  );
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+/* Facebook card ka thoda red/maroon tint */
+.social-card:nth-child(2) {
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 20, 0.9) 0%,
+    rgba(40, 8, 20, 0.45) 100%
+  );
+}
+
+.social-card:hover,
+.social-card-active {
+  border-color: #ff0a5a;
+}
+
+.social-card:hover {
+  transform: translateY(-4px);
+}
+
+.social-card-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.social-card-icon {
+  width: 52px;
+  height: 52px;
+  display: block;
+  object-fit: contain;
+}
+
+.social-card-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.social-card-desc {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* ---------- Buttons ---------- */
+.social-card-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+/* Discord: full width pink button */
+.social-card-btn-primary {
+  width: 100%;
+  background: #ff0a5a;
+  border: 1px solid #ff0a5a;
+}
+
+.social-card-btn-primary:hover {
+  background: #d4165f;
+  border-color: #d4165f;
+}
+
+/* Facebook / Instagram: outline button */
+.social-card-btn-outline {
+  background: transparent;
+  border: 1px solid #666969;
+}
+
+.social-card-btn-outline:hover {
+  border-color: #ff0a5a;
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .social-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .social-eyebrow {
+    font-size: 18px;
+  }
+
+  .social-title {
+    font-size: 52px;
+  }
+
+  .social-paragraph {
+    font-size: 16px;
+  }
+
+  .social-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-card-title {
+    font-size: 30px;
+  }
+
+  .social-card-desc {
+    font-size: 16px;
+  }
+}
+
+/* ---------- Mobile: cards stack ---------- */
+@media (max-width: 767px) {
+  .social-section {
+    padding: 40px 0;
+  }
+
+  .social-container {
+    gap: 24px;
+  }
+
+  .social-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .social-eyebrow {
+    font-size: 14px;
+  }
+
+  .social-title {
+    font-size: 40px;
+  }
+
+  .social-paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .social-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .social-card {
+    padding: 28px 20px;
+    gap: 18px;
+  }
+
+  .social-card-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .social-card-title {
+    font-size: 28px;
+  }
+
+  .social-card-desc {
+    font-size: 15px;
+  }
+}
