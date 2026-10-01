@@ -195,6 +195,60 @@ export default function CommunityPage() {
     </div>
   </div>
 </section>
+{/* ---------- CTA (Same Game. More Connections.) ---------- */}
+<section className="cta-section">
+  <img
+    src="/images/cta-bg.png"
+    alt=""
+    className="cta-bg"
+  />
+
+  <div className="cta-container">
+    <div className="cta-content">
+      <p className="cta-eyebrow">YOUR GLOBAL FOOTBALL COMMUNITY</p>
+
+      <h2 className="cta-title">
+        SAME GAME.
+        <br />
+        <span className="cta-title-pink">MORE CONNECTIONS.</span>
+      </h2>
+
+      <p className="cta-text">
+        Join the conversation with Football League players.
+      </p>
+    </div>
+
+    <div className="cta-actions">
+      <a
+        href={DISCORD_LINK}
+        target="_blank"
+        rel="noreferrer"
+        className="cta-btn"
+      >
+        Join the Discord
+      </a>
+
+      <div className="cta-links">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noreferrer"
+          className="cta-link"
+        >
+          Facebook
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          className="cta-link"
+        >
+          Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
     </>
   );
 }

@@ -702,3 +702,193 @@
     font-size: 34px;
   }
 }
+/* =========================================
+   CTA SECTION (Same Game. More Connections.)
+   ========================================= */
+
+/* Full width (1440) */
+.cta-section {
+  position: relative;
+  width: 100%;
+  min-height: 402px;                /* Figma height 402 */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #02060b;
+  box-sizing: border-box;
+}
+
+.cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Content sirf 1220 me */
+.cta-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+/* ---------- Left text ---------- */
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;                        /* Figma gap 16 */
+  max-width: 576px;
+}
+
+.cta-eyebrow {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff0a5a;
+}
+
+.cta-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.cta-title-pink {
+  color: #ff0a5a;
+}
+
+.cta-text {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* ---------- Right actions ---------- */
+.cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;                        /* Figma gap 16 */
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 14px 40px;
+  background: #ff0a5a;
+  border: 1px solid #ff0a5a;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cta-btn:hover {
+  background: #d4165f;
+  border-color: #d4165f;
+}
+
+.cta-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;                        /* Figma padding 30 */
+}
+
+.cta-link {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.cta-link:hover {
+  color: #ff0a5a;
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .cta-container {
+    padding: 60px 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .cta-eyebrow {
+    font-size: 18px;
+  }
+
+  .cta-title {
+    font-size: 52px;
+  }
+
+  .cta-text {
+    font-size: 16px;
+  }
+}
+
+/* ---------- Mobile: stack ---------- */
+@media (max-width: 767px) {
+  .cta-section {
+    min-height: auto;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 40px 20px;
+  }
+
+  .cta-eyebrow {
+    font-size: 14px;
+  }
+
+  .cta-title {
+    font-size: 40px;
+  }
+
+  .cta-text {
+    font-size: 14px;
+  }
+
+  .cta-actions {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .cta-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cta-links {
+    gap: 24px;
+  }
+}
