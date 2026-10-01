@@ -32,6 +32,11 @@ const MODES = [
   { title: "LEAGUE & CUP GAMES", desc: "Take on club and national tournaments for glory." },
   { title: "WOMEN’S COMPETITIONS", desc: "Inclusive leagues and tournaments celebrating women’s football." },
 ];
+const EVENTS = [
+  { bold: "Live Challenge Events.", text: "Themed, regular challenges packed with rewards." },
+  { bold: "Continuous Updates.", text: "Festive events and fan-driven updates keep gameplay exciting." },
+  { bold: "Game Day Style.", text: "Streamlined UI keeps menus, events and gameplay clear and responsive." },
+];
 
 export default function FeaturesPage() {
   return (
@@ -129,6 +134,35 @@ export default function FeaturesPage() {
           <p className="modes-card-desc">{mode.desc}</p>
         </div>
       ))}
+    </div>
+  </div>
+</section>
+<section className="events-section">
+  <div className="events-container">
+    <div className="events-content">
+      <div className="events-heading">
+        <p className="events-eyebrow">ENGAGING EVENTS &amp; DESIGNS</p>
+        <h2 className="events-title">DYNAMIC EVERY DAY.</h2>
+      </div>
+
+      <ul className="events-list">
+        {EVENTS.map((item, i) => (
+          <li key={i} className="events-item">
+            <span className="events-item-icon" />
+            <p className="events-item-text">
+              <strong>{item.bold}</strong> {item.text}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div className="events-image-wrap">
+      <img
+        src="/images/events-gameplay.png"
+        alt="Player dribbling the ball on the pitch"
+        className="events-image"
+      />
     </div>
   </div>
 </section>
