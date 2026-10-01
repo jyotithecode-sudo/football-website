@@ -46,13 +46,13 @@ const DATABASE = [
     desc: "Manchester City and AS Monaco arrive with authentic club content.",
   },
   {
-    image: "/images/database-2.png",
+    image: "/images/database-1.png",
     tag: "DATABASE",
     title: "COMPREHENSIVE DATABASE",
     desc: "35+ countries, 1,500+ teams, 40,000+ players — global and inclusive.",
   },
   {
-    image: "/images/database-3.png",
+    image: "/images/database-1.png",
     tag: "EDITOR",
     title: "FREE CUSTOMIZATION",
     desc: "Edit players and teams, update jerseys, and create custom leagues.",
