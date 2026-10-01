@@ -255,11 +255,16 @@ span.feature-card-badge {
   }
 }
 
-/* Full width (1440) wala section */
+/* =========================================
+   PLAY YOUR WAY (Diverse Game Modes) SECTION
+   ========================================= */
+
+/* Full width (1440) background */
 .custom-modes-section {
   width: 100%;
-  padding: 40px 0;
-  background: rgba(255, 0, 80, 0.06); /* Figma ka dark maroon fill yahan match karo */
+  padding: 60px 0;                      /* Figma: 60 top/bottom */
+  background: rgba(255, 0, 80, 0.06);   /* Figma ka fill hex yahan daalo */
+  box-sizing: border-box;
 }
 
 /* Content sirf 1220 me */
@@ -268,10 +273,10 @@ span.feature-card-badge {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 40px;                            /* Figma gap 40 */
 }
 
-/* Header: left heading, right paragraph */
+/* ---------- Header ---------- */
 .modes-header {
   display: flex;
   justify-content: space-between;
@@ -288,43 +293,39 @@ span.feature-card-badge {
 .modes-paragraph {
   width: 522px;
   max-width: 100%;
+  margin: 0;
 }
 
-/* Cards row: right side se thoda cut hoke scroll hoga */
+/* ---------- Cards (Desktop: 4 cards, no scroll) ---------- */
 .modes-cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-}
-.modes-cards::-webkit-scrollbar {
-  display: none;
 }
 
 .mode-card {
-  flex: 0 0 325px;
-  height: 254px;
+  min-height: 254px;
   box-sizing: border-box;
   padding: 40px 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  border: 1px solid #ff0a5a;       /* pink border */
-  background: rgba(30, 5, 12, 0.8); /* card ka dark fill */
-  scroll-snap-align: start;
+  border: 1px solid #ff0a5a;
+  background: rgba(30, 5, 12, 0.8);
 }
 
 .mode-card-number {
   font-family: "Oswald", sans-serif;
   font-size: 28px;
   font-weight: 600;
-  color: #1de9b6;                   /* green/teal number */
+  line-height: 1;
+  color: #1de9b6;
 }
 
 .mode-card-title {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
+  font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
   color: #fff;
@@ -338,12 +339,59 @@ span.feature-card-badge {
   margin: 0;
 }
 
-/* Responsive */
+/* ---------- Laptop / small desktop ---------- */
 @media (max-width: 1260px) {
-  .modes { padding: 0 20px; }
+  .modes {
+    padding: 0 20px;
+  }
 }
+
+/* ---------- Tablet: 2 x 2 grid ---------- */
+@media (max-width: 1024px) {
+  .modes-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------- Mobile: horizontal scroll ---------- */
 @media (max-width: 768px) {
-  .modes-header { flex-direction: column; align-items: flex-start; gap: 16px; }
-  .modes-paragraph { width: 100%; }
-  .mode-card { flex-basis: 260px; }
+  .custom-modes-section {
+    padding: 40px 0;
+  }
+
+  .modes {
+    gap: 24px;
+  }
+
+  .modes-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding-bottom: 0;
+  }
+
+  .modes-paragraph {
+    width: 100%;
+  }
+
+  .modes-cards {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-right: -20px;               /* right side card thoda cut dikhe */
+    padding-right: 20px;
+  }
+
+  .modes-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mode-card {
+    flex: 0 0 260px;
+    min-height: 230px;
+    scroll-snap-align: start;
+  }
 }

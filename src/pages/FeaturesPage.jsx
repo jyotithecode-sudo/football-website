@@ -31,7 +31,6 @@ const MODES = [
   { title: "CAREER MODE", desc: "Build your team, train hard, play smart, and rise to the top." },
   { title: "LEAGUE & CUP GAMES", desc: "Take on club and national tournaments for glory." },
   { title: "WOMEN’S COMPETITIONS", desc: "Inclusive leagues and tournaments celebrating women’s football." },
-  { title: "ONLINE PLAY", desc: "Compete with players around the world." },
 ];
 
 export default function FeaturesPage() {
