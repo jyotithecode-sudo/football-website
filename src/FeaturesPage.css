@@ -256,24 +256,26 @@ span.feature-card-badge {
 }
 
 /* =========================================
-   PLAY YOUR WAY (Diverse Game Modes) SECTION
+   MODES SECTION (Play Your Way)
    ========================================= */
 
-/* Full width (1440) background */
-.custom-modes-section {
+/* Full width (1440) */
+.modes-section {
   width: 100%;
-  padding: 60px 0;                      /* Figma: 60 top/bottom */
-  background: rgba(255, 0, 80, 0.06);   /* Figma ka fill hex yahan daalo */
+  padding: 60px 0;
+  background: rgba(255, 0, 80, 0.06); /* Figma ka fill hex yahan daalo */
   box-sizing: border-box;
 }
 
 /* Content sirf 1220 me */
-.modes {
+.modes-container {
+  width: 100%;
   max-width: 1220px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;                            /* Figma gap 40 */
+  gap: 40px;
+  box-sizing: border-box;
 }
 
 /* ---------- Header ---------- */
@@ -290,10 +292,37 @@ span.feature-card-badge {
   gap: 10px;
 }
 
+.modes-eyebrow {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff0a5a;
+}
+
+.modes-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.modes-title-pink {
+  color: #ff0a5a;
+}
+
 .modes-paragraph {
   width: 522px;
   max-width: 100%;
   margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
 }
 
 /* ---------- Cards (Desktop: 4 cards, no scroll) ---------- */
@@ -303,7 +332,7 @@ span.feature-card-badge {
   gap: 24px;
 }
 
-.mode-card {
+.modes-card {
   min-height: 254px;
   box-sizing: border-box;
   padding: 40px 24px;
@@ -314,7 +343,7 @@ span.feature-card-badge {
   background: rgba(30, 5, 12, 0.8);
 }
 
-.mode-card-number {
+.modes-card-number {
   font-family: "Oswald", sans-serif;
   font-size: 28px;
   font-weight: 600;
@@ -322,32 +351,36 @@ span.feature-card-badge {
   color: #1de9b6;
 }
 
-.mode-card-title {
+.modes-card-title {
+  margin: 0;
   font-family: "Oswald", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
   color: #fff;
-  margin: 0;
 }
 
-.mode-card-desc {
+.modes-card-desc {
+  margin: 0;
   font-size: 13px;
   line-height: 1.5;
   color: #fff;
-  margin: 0;
 }
 
 /* ---------- Laptop / small desktop ---------- */
 @media (max-width: 1260px) {
-  .modes {
+  .modes-container {
     padding: 0 20px;
   }
 }
 
 /* ---------- Tablet: 2 x 2 grid ---------- */
 @media (max-width: 1024px) {
+  .modes-title {
+    font-size: 56px;
+  }
+
   .modes-cards {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -355,11 +388,11 @@ span.feature-card-badge {
 
 /* ---------- Mobile: horizontal scroll ---------- */
 @media (max-width: 768px) {
-  .custom-modes-section {
+  .modes-section {
     padding: 40px 0;
   }
 
-  .modes {
+  .modes-container {
     gap: 24px;
   }
 
@@ -370,8 +403,13 @@ span.feature-card-badge {
     padding-bottom: 0;
   }
 
+  .modes-title {
+    font-size: 40px;
+  }
+
   .modes-paragraph {
     width: 100%;
+    font-size: 14px;
   }
 
   .modes-cards {
@@ -381,7 +419,7 @@ span.feature-card-badge {
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    margin-right: -20px;               
+    margin-right: -20px;   /* right wala card thoda cut dikhe */
     padding-right: 20px;
   }
 
@@ -389,7 +427,7 @@ span.feature-card-badge {
     display: none;
   }
 
-  .mode-card {
+  .modes-card {
     flex: 0 0 260px;
     min-height: 230px;
     scroll-snap-align: start;

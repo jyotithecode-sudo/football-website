@@ -104,29 +104,29 @@ export default function FeaturesPage() {
           </div>
         </div>
       </section>
-      <section className="custom-modes-section">
-  <div className="page-inner modes">
+ <section className="modes-section">
+  <div className="modes-container">
     <div className="modes-header">
       <div className="modes-heading">
-        <p className="eyebrow-mode eyebrow-pink">DIVERSE GAME MODES</p>
-        <h2 className="mode-section-title">
-          PLAY <span className="text-pink">YOUR WAY.</span>
+        <p className="modes-eyebrow">DIVERSE GAME MODES</p>
+        <h2 className="modes-title">
+          PLAY <span className="modes-title-pink">YOUR WAY.</span>
         </h2>
       </div>
 
-      <p className="intro-text modes-paragraph">
+      <p className="modes-paragraph">
         Play across multiple leagues, tournaments and challenges.
       </p>
     </div>
 
     <div className="modes-cards">
       {MODES.map((mode, i) => (
-        <div key={i} className="mode-card">
-          <span className="mode-card-number">
+        <div key={i} className="modes-card">
+          <span className="modes-card-number">
             {String(i + 1).padStart(2, "0")}
           </span>
-          <h3 className="mode-card-title">{mode.title}</h3>
-          <p className="mode-card-desc">{mode.desc}</p>
+          <h3 className="modes-card-title">{mode.title}</h3>
+          <p className="modes-card-desc">{mode.desc}</p>
         </div>
       ))}
     </div>
