@@ -463,11 +463,11 @@ span.feature-card-badge {
 /* Full width (1440) */
 .events-section {
   width: 100%;
-  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  padding: 60px 0;                  
   box-sizing: border-box;
 }
 
-/* Content sirf 1220 me: left text box + right image */
+
 .events-container {
   width: 100%;
   max-width: 1220px;
@@ -484,10 +484,9 @@ span.feature-card-badge {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 22px;                        /* Figma gap 22 */
-  padding: 80px 40px;               /* Figma: 80 top/bottom, 40 left/right */
-  background: #040a0e;              /* Figma fill 040A0E */
-  border-left: 3px solid #ff0a5a;   /* left pink line */
+  gap: 22px;                        
+  padding: 80px 40px;                           
+  border-left: 3px solid #ff0a5a;   
   box-sizing: border-box;
   min-height: 507px;
 }
@@ -501,7 +500,7 @@ span.feature-card-badge {
 .events-eyebrow {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -511,7 +510,7 @@ span.feature-card-badge {
 .events-title {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
@@ -525,13 +524,13 @@ span.feature-card-badge {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;                        /* Figma gap 16 */
+  gap: 16px;                        
 }
 
 .events-item {
   display: flex;
   align-items: center;
-  gap: 24px;                        /* Figma gap 24 */
+  gap: 24px;                        
 }
 
 /* Teal + pink two-tone icon */
@@ -544,7 +543,7 @@ span.feature-card-badge {
 
 .events-item-text {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   color: #fff;
 }
