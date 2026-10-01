@@ -1,0 +1,200 @@
+/* =========================================
+   ROOT VARIABLES
+   ========================================= */
+:root {
+  --primary-color: #ec1a6d;
+  --primary-hover: #d4165f;
+  --secondary-color: #2dd4bf;
+
+  --background-color: #0a0e16;
+  --dark-bg: #02060b;
+  --border-color: #666969;
+  --white-color: #ffffff;
+
+  --font-primary: "Inter", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+}
+
+/* =========================================
+   COMMUNITY HERO (One Game. Global Passion.)
+   ========================================= */
+
+.community-hero {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 481px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+.community-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.community-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 14, 22, 0.85) 0%,
+    rgba(10, 14, 22, 0.55) 40%,
+    rgba(10, 14, 22, 0.15) 70%,
+    rgba(10, 14, 22, 0) 100%
+  );
+}
+
+.community-hero-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 75px 0;
+  box-sizing: border-box;
+}
+
+.community-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 775px;
+}
+
+.community-hero-eyebrow {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.community-hero-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 106px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.community-hero-title-pink {
+  color: var(--primary-color);
+}
+
+.community-hero-text {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+
+.community-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.community-hero-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.community-hero-btn:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.community-hero-link {
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: opacity 0.2s;
+}
+
+.community-hero-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1260px) {
+  .community-hero-container {
+    padding: 75px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .community-hero-eyebrow {
+    font-size: 18px;
+  }
+
+  .community-hero-title {
+    font-size: 72px;
+  }
+
+  .community-hero-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .community-hero {
+    min-height: 420px;
+  }
+
+  .community-hero-container {
+    padding: 50px 20px;
+  }
+
+  .community-hero-content {
+    gap: 18px;
+  }
+
+  .community-hero-eyebrow {
+    font-size: 14px;
+  }
+
+  .community-hero-title {
+    font-size: 44px;
+  }
+
+  .community-hero-text {
+    font-size: 15px;
+  }
+
+  .community-hero-actions {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .community-hero-btn,
+  .community-hero-link {
+    font-size: 14px;
+  }
+}
