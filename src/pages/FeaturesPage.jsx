@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 import "../FeaturesPage.css";
 
-
 const CARDS = [
   {
     image: "/images/feature-stadium.png",
@@ -26,12 +25,14 @@ const CARDS = [
     badge: true,
   },
 ];
+
 const MODES = [
   { title: "CAREER MODE", desc: "Build your team, train hard, play smart, and rise to the top." },
   { title: "CAREER MODE", desc: "Build your team, train hard, play smart, and rise to the top." },
   { title: "LEAGUE & CUP GAMES", desc: "Take on club and national tournaments for glory." },
   { title: "WOMEN’S COMPETITIONS", desc: "Inclusive leagues and tournaments celebrating women’s football." },
 ];
+
 const EVENTS = [
   { bold: "Live Challenge Events.", text: "Themed, regular challenges packed with rewards." },
   { bold: "Continuous Updates.", text: "Festive events and fan-driven updates keep gameplay exciting." },
@@ -41,6 +42,7 @@ const EVENTS = [
 export default function FeaturesPage() {
   return (
     <>
+      {/* ---------- Hero ---------- */}
       <section className="custom-features-section">
         <div className="page-inner features-hero">
           <img
@@ -48,44 +50,43 @@ export default function FeaturesPage() {
             alt="Player in a stadium"
             className="features-hero-bg"
           />
- 
+
           <div className="features-hero-overlay" />
- 
+
           <div className="features-hero-content">
             <p className="eyebrow eyebrow-pink">FEATURES</p>
- 
+
             <h1 className="hero-title">
               DEPTH. STYLE.
               <br />
               <span className="text-pink">CONTROL.</span>
             </h1>
- 
+
             <p className="intro-text">
               Built for football fans who crave depth, style and control.
             </p>
           </div>
         </div>
       </section>
- 
+
+      {/* ---------- Immersive match experience ---------- */}
       <section className="custom-match-intro-section">
         <div className="page-inner match-intro">
           <div className="match-intro-inner">
             <div className="match-intro-text">
-              <p className="eyebrow eyebrow-pink">
-                IMMERSIVE MATCH EXPERIENCE
-              </p>
- 
+              <p className="eyebrow eyebrow-pink">IMMERSIVE MATCH EXPERIENCE</p>
+
               <h2 className="section-title">
                 FEEL EVERY <span className="text-pink">MATCH.</span>
               </h2>
             </div>
- 
+
             <p className="intro-text match-intro-paragraph">
               Realistic stadiums and responsive gameplay make every game
               night feel close to the pitch.
             </p>
           </div>
- 
+
           <div className="feature-cards">
             {CARDS.map((card) => (
               <div key={card.title} className="feature-card">
@@ -95,77 +96,80 @@ export default function FeaturesPage() {
                     alt={card.title}
                     className="feature-card-image"
                   />
-                  {card.badge && (
-                    <span className="feature-card-badge">✓</span>
-                  )}
+                  {card.badge && <span className="feature-card-badge">✓</span>}
                 </div>
-                <div class="content-box">
-                <p className="feature-card-tag">{card.tag}</p>
-                <h3 className="feature-card-title">{card.title}</h3>
-                <p className="feature-card-desc">{card.description}</p>
+
+                <div className="content-box">
+                  <p className="feature-card-tag">{card.tag}</p>
+                  <h3 className="feature-card-title">{card.title}</h3>
+                  <p className="feature-card-desc">{card.description}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
- <section className="modes-section">
-  <div className="modes-container">
-    <div className="modes-header">
-      <div className="modes-heading">
-        <p className="modes-eyebrow">DIVERSE GAME MODES</p>
-        <h2 className="modes-title">
-          PLAY <span className="modes-title-pink">YOUR WAY.</span>
-        </h2>
-      </div>
 
-      <p className="modes-paragraph">
-        Play across multiple leagues, tournaments and challenges.
-      </p>
-    </div>
+      {/* ---------- Modes (Play Your Way) ---------- */}
+      <section className="modes-section">
+        <div className="modes-container">
+          <div className="modes-header">
+            <div className="modes-heading">
+              <p className="modes-eyebrow">DIVERSE GAME MODES</p>
+              <h2 className="modes-title">
+                PLAY <span className="modes-title-pink">YOUR WAY.</span>
+              </h2>
+            </div>
 
-    <div className="modes-cards">
-      {MODES.map((mode, i) => (
-        <div key={i} className="modes-card">
-          <span className="modes-card-number">
-            {String(i + 1).padStart(2, "0")}
-          </span>
-          <h3 className="modes-card-title">{mode.title}</h3>
-          <p className="modes-card-desc">{mode.desc}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
-<section className="events-section">
-  <div className="events-container">
-    <div className="events-content">
-      <div className="events-heading">
-        <p className="events-eyebrow">ENGAGING EVENTS &amp; DESIGNS</p>
-        <h2 className="events-title">DYNAMIC EVERY DAY.</h2>
-      </div>
-
-      <ul className="events-list">
-        {EVENTS.map((item, i) => (
-          <li key={i} className="events-item">
-            <span className="events-item-icon" />
-            <p className="events-item-text">
-              <strong>{item.bold}</strong> {item.text}
+            <p className="modes-paragraph">
+              Play across multiple leagues, tournaments and challenges.
             </p>
-          </li>
-        ))}
-      </ul>
-    </div>
+          </div>
 
-    <div className="events-image-wrap">
-      <img
-        src="/images/events-gameplay.png"
-        alt="Player dribbling the ball on the pitch"
-        className="events-image"
-      />
-    </div>
-  </div>
-</section>
+          <div className="modes-cards">
+            {MODES.map((mode, i) => (
+              <div key={i} className="modes-card">
+                <span className="modes-card-number">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <h3 className="modes-card-title">{mode.title}</h3>
+                <p className="modes-card-desc">{mode.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Events (Dynamic Every Day) ---------- */}
+      <section className="events-section">
+        <div className="events-container">
+          <div className="events-content">
+            <div className="events-heading">
+              <p className="events-eyebrow">ENGAGING EVENTS &amp; DESIGNS</p>
+              <h2 className="events-title">DYNAMIC EVERY DAY.</h2>
+            </div>
+
+            <ul className="events-list">
+              {EVENTS.map((item, i) => (
+                <li key={i} className="events-item">
+                  <span className="events-item-icon" />
+                  <p className="events-item-text">
+                    <strong>{item.bold}</strong> {item.text}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="events-image-wrap">
+            <img
+              src="/images/events-gameplay.png"
+              alt="Player dribbling the ball on the pitch"
+              className="events-image"
+            />
+          </div>
+        </div>
+      </section>
     </>
   );
 }

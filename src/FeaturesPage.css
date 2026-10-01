@@ -17,10 +17,6 @@
 
 /* ---------- Features hero ---------- */
 
-.feature-card:hover {
-  border: 1px solid var(--primary-color);
-}
-
 .features-hero {
   position: relative;
   width: 100%;
@@ -77,19 +73,6 @@
   color: var(--text-light);
 }
 
-/* ---------- Feature card ---------- */
-
-.feature-card {
-  border: 1px solid var(--border-color);
-  flex-direction: column;
-  display: flex;
-  transition: transform 0.2s;
-}
-
-.content-box {
-  padding: 24px;
-}
-
 /* ---------- Responsive hero ---------- */
 
 @media (min-width: 640px) {
@@ -123,11 +106,13 @@
     font-size: 106px;
   }
 }
+
 @media (max-width: 767px) {
   .features-hero-content {
     max-width: 326px !important;
   }
 }
+
 /* ---------- Immersive match experience ---------- */
 
 .match-intro {
@@ -155,6 +140,22 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+}
+
+.feature-card {
+  border: 1px solid var(--border-color);
+  flex-direction: column;
+  display: flex;
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  border: 1px solid var(--primary-color);
+  transform: translateY(-4px);
+}
+
+.content-box {
+  padding: 24px;
 }
 
 .feature-card-image-wrap {
@@ -187,8 +188,7 @@
   place-items: center;
 }
 
-/* ---------- Hide badge ---------- */
-
+/* Hide badge */
 span.feature-card-badge {
   display: none;
 }
@@ -211,10 +211,6 @@ span.feature-card-badge {
   font-size: 20px;
   font-weight: 700;
   color: var(--white-color);
-}
-
-.feature-card:hover {
-  transform: translateY(-4px);
 }
 
 .feature-card-desc {
@@ -377,8 +373,16 @@ span.feature-card-badge {
 
 /* ---------- Tablet: 2 x 2 grid ---------- */
 @media (max-width: 1024px) {
+  .modes-eyebrow {
+    font-size: 18px;
+  }
+
   .modes-title {
     font-size: 56px;
+  }
+
+  .modes-paragraph {
+    font-size: 18px;
   }
 
   .modes-cards {
@@ -401,6 +405,10 @@ span.feature-card-badge {
     align-items: flex-start;
     gap: 16px;
     padding-bottom: 0;
+  }
+
+  .modes-eyebrow {
+    font-size: 14px;
   }
 
   .modes-title {
@@ -430,7 +438,21 @@ span.feature-card-badge {
   .modes-card {
     flex: 0 0 260px;
     min-height: 230px;
+    padding: 32px 20px;
+    gap: 16px;
     scroll-snap-align: start;
+  }
+
+  .modes-card-number {
+    font-size: 28px;
+  }
+
+  .modes-card-title {
+    font-size: 22px;
+  }
+
+  .modes-card-desc {
+    font-size: 14px;
   }
 }
 
@@ -441,11 +463,11 @@ span.feature-card-badge {
 /* Full width (1440) */
 .events-section {
   width: 100%;
-  padding: 60px 0;                 
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
   box-sizing: border-box;
 }
 
-
+/* Content sirf 1220 me: left text box + right image */
 .events-container {
   width: 100%;
   max-width: 1220px;
@@ -462,10 +484,10 @@ span.feature-card-badge {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 22px;                       
-  padding: 80px 40px;              
-  background: #040a0e;             
-  border-left: 3px solid #ff0a5a;  
+  gap: 22px;                        /* Figma gap 22 */
+  padding: 80px 40px;               /* Figma: 80 top/bottom, 40 left/right */
+  background: #040a0e;              /* Figma fill 040A0E */
+  border-left: 3px solid #ff0a5a;   /* left pink line */
   box-sizing: border-box;
   min-height: 507px;
 }
@@ -503,13 +525,13 @@ span.feature-card-badge {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;                       
+  gap: 16px;                        /* Figma gap 16 */
 }
 
 .events-item {
   display: flex;
   align-items: center;
-  gap: 24px;                       
+  gap: 24px;                        /* Figma gap 24 */
 }
 
 /* Teal + pink two-tone icon */
@@ -578,6 +600,10 @@ span.feature-card-badge {
   .events-content {
     padding: 32px 20px;
     gap: 18px;
+  }
+
+  .events-eyebrow {
+    font-size: 14px;
   }
 
   .events-title {
