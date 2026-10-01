@@ -736,7 +736,7 @@ span.feature-card-badge {
 .database-card-tag {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -746,7 +746,7 @@ span.feature-card-badge {
 .database-card-title {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.2;
   text-transform: uppercase;
@@ -755,7 +755,7 @@ span.feature-card-badge {
 
 .database-card-desc {
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #fff;
 }
