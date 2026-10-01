@@ -26,6 +26,13 @@ const CARDS = [
     badge: true,
   },
 ];
+const MODES = [
+  { title: "CAREER MODE", desc: "Build your team, train hard, play smart, and rise to the top." },
+  { title: "CAREER MODE", desc: "Build your team, train hard, play smart, and rise to the top." },
+  { title: "LEAGUE & CUP GAMES", desc: "Take on club and national tournaments for glory." },
+  { title: "WOMEN’S COMPETITIONS", desc: "Inclusive leagues and tournaments celebrating women’s football." },
+  { title: "ONLINE PLAY", desc: "Compete with players around the world." },
+];
 
 export default function FeaturesPage() {
   return (
@@ -98,6 +105,34 @@ export default function FeaturesPage() {
           </div>
         </div>
       </section>
+      <section className="custom-modes-section">
+  <div className="page-inner modes">
+    <div className="modes-header">
+      <div className="modes-heading">
+        <p className="eyebrow eyebrow-pink">DIVERSE GAME MODES</p>
+        <h2 className="section-title">
+          PLAY <span className="text-pink">YOUR WAY.</span>
+        </h2>
+      </div>
+
+      <p className="intro-text modes-paragraph">
+        Play across multiple leagues, tournaments and challenges.
+      </p>
+    </div>
+
+    <div className="modes-cards">
+      {MODES.map((mode, i) => (
+        <div key={i} className="mode-card">
+          <span className="mode-card-number">
+            {String(i + 1).padStart(2, "0")}
+          </span>
+          <h3 className="mode-card-title">{mode.title}</h3>
+          <p className="mode-card-desc">{mode.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
     </>
   );
 }

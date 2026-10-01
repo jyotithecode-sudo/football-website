@@ -254,3 +254,96 @@ span.feature-card-badge {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Full width (1440) wala section */
+.custom-modes-section {
+  width: 100%;
+  padding: 40px 0;
+  background: rgba(255, 0, 80, 0.06); /* Figma ka dark maroon fill yahan match karo */
+}
+
+/* Content sirf 1220 me */
+.modes {
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Header: left heading, right paragraph */
+.modes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+
+.modes-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modes-paragraph {
+  width: 522px;
+  max-width: 100%;
+}
+
+/* Cards row: right side se thoda cut hoke scroll hoga */
+.modes-cards {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.modes-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.mode-card {
+  flex: 0 0 325px;
+  height: 254px;
+  box-sizing: border-box;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #ff0a5a;       /* pink border */
+  background: rgba(30, 5, 12, 0.8); /* card ka dark fill */
+  scroll-snap-align: start;
+}
+
+.mode-card-number {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1de9b6;                   /* green/teal number */
+}
+
+.mode-card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+
+.mode-card-desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 1260px) {
+  .modes { padding: 0 20px; }
+}
+@media (max-width: 768px) {
+  .modes-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .modes-paragraph { width: 100%; }
+  .mode-card { flex-basis: 260px; }
+}
