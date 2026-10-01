@@ -38,6 +38,26 @@ const EVENTS = [
   { bold: "Continuous Updates.", text: "Festive events and fan-driven updates keep gameplay exciting." },
   { bold: "Game Day Style.", text: "Streamlined UI keeps menus, events and gameplay clear and responsive." },
 ];
+const DATABASE = [
+  {
+    image: "/images/database-1.png",
+    tag: "LICENSES",
+    title: "OFFICIAL LICENSES",
+    desc: "Manchester City and AS Monaco arrive with authentic club content.",
+  },
+  {
+    image: "/images/database-2.png",
+    tag: "DATABASE",
+    title: "COMPREHENSIVE DATABASE",
+    desc: "35+ countries, 1,500+ teams, 40,000+ players — global and inclusive.",
+  },
+  {
+    image: "/images/database-3.png",
+    tag: "EDITOR",
+    title: "FREE CUSTOMIZATION",
+    desc: "Edit players and teams, update jerseys, and create custom leagues.",
+  },
+];
 
 export default function FeaturesPage() {
   return (
@@ -170,6 +190,46 @@ export default function FeaturesPage() {
           </div>
         </div>
       </section>
+      {/* ---------- Database (Your Players. Your World.) ---------- */}
+<section className="database-section">
+  <div className="database-container">
+    <div className="database-header">
+      <div className="database-heading">
+        <p className="database-eyebrow">EXTENSIVE &amp; FLEXIBLE DATABASE</p>
+        <h2 className="database-title">
+          YOUR PLAYERS.
+          <br />
+          <span className="database-title-pink">YOUR WORLD.</span>
+        </h2>
+      </div>
+
+      <p className="database-paragraph">
+        Realistic stadiums and responsive gameplay make every game night feel
+        close to the pitch.
+      </p>
+    </div>
+
+    <div className="database-cards">
+      {DATABASE.map((item) => (
+        <div key={item.title} className="database-card">
+          <div className="database-card-image-wrap">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="database-card-image"
+            />
+          </div>
+
+          <div className="database-card-body">
+            <p className="database-card-tag">{item.tag}</p>
+            <h3 className="database-card-title">{item.title}</h3>
+            <p className="database-card-desc">{item.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
     </>
   );
 }

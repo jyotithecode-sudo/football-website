@@ -622,3 +622,218 @@ span.feature-card-badge {
     aspect-ratio: 667 / 507;
   }
 }
+/* =========================================
+   DATABASE SECTION (Your Players. Your World.)
+   ========================================= */
+
+/* Full width (1440) */
+.database-section {
+  width: 100%;
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  background: #040a0e;              /* Figma fill 040A0E */
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.database-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;                        /* Figma gap 40 */
+  box-sizing: border-box;
+}
+
+/* ---------- Header ---------- */
+.database-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.database-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.database-eyebrow {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff0a5a;
+}
+
+.database-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.database-title-pink {
+  color: #ff0a5a;
+}
+
+.database-paragraph {
+  width: 522px;
+  max-width: 100%;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+/* ---------- Cards (Desktop: 3 cards) ---------- */
+.database-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;                        /* Figma gap 20 */
+}
+
+.database-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #666969;
+  background: rgba(30, 5, 12, 0.8);
+  box-sizing: border-box;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.database-card:hover {
+  border-color: #ff0a5a;
+  transform: translateY(-4px);
+}
+
+.database-card-image-wrap {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.database-card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.database-card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.database-card-tag {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #1de9b6;
+}
+
+.database-card-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.database-card-desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .database-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .database-eyebrow {
+    font-size: 18px;
+  }
+
+  .database-title {
+    font-size: 56px;
+  }
+
+  .database-paragraph {
+    font-size: 18px;
+  }
+
+  .database-card-title {
+    font-size: 24px;
+  }
+}
+
+/* ---------- Mobile: cards stack ---------- */
+@media (max-width: 768px) {
+  .database-section {
+    padding: 40px 0;
+  }
+
+  .database-container {
+    gap: 24px;
+  }
+
+  .database-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .database-eyebrow {
+    font-size: 14px;
+  }
+
+  .database-title {
+    font-size: 40px;
+  }
+
+  .database-paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .database-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .database-card-image-wrap {
+    height: 180px;
+  }
+
+  .database-card-body {
+    padding: 20px;
+    gap: 12px;
+  }
+
+  .database-card-title {
+    font-size: 22px;
+  }
+
+  .database-card-desc {
+    font-size: 14px;
+  }
+}
