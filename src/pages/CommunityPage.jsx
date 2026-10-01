@@ -32,21 +32,21 @@ const SOCIALS = [
 ];
 const ACTIONS = [
   {
-    image: "/images/action-1.png",
+    image: "/images/news-2.png",
     title: "MATCH HIGHLIGHTS",
     link: "See the highlights",
     href: "#", // asli link daalo
     big: true,
   },
   {
-    image: "/images/action-2.png",
+    image: "/images/news-2.png",
     title: "TEAM BUILDS",
     link: "Talk tactics on Discord",
     href: DISCORD_LINK,
     big: false,
   },
   {
-    image: "/images/action-3.png",
+    image: "/images/news-2.png",
     title: "EXCLUSIVE EVENTS",
     link: "Follow event announcements",
     href: "#", // asli link daalo
