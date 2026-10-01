@@ -108,8 +108,8 @@ export default function FeaturesPage() {
   <div className="page-inner modes">
     <div className="modes-header">
       <div className="modes-heading">
-        <p className="eyebrow eyebrow-pink">DIVERSE GAME MODES</p>
-        <h2 className="section-title">
+        <p className="eyebrow-mode eyebrow-pink">DIVERSE GAME MODES</p>
+        <h2 className="mode-section-title">
           PLAY <span className="text-pink">YOUR WAY.</span>
         </h2>
       </div>
