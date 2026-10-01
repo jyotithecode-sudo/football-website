@@ -295,7 +295,7 @@ span.feature-card-badge {
 .modes-eyebrow {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -305,7 +305,7 @@ span.feature-card-badge {
 .modes-title {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 72px;
+  font-size: 66px;
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
@@ -320,7 +320,7 @@ span.feature-card-badge {
   width: 522px;
   max-width: 100%;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   color: #fff;
 }
@@ -345,7 +345,7 @@ span.feature-card-badge {
 
 .modes-card-number {
   font-family: "Oswald", sans-serif;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 600;
   line-height: 1;
   color: #1de9b6;
@@ -354,7 +354,7 @@ span.feature-card-badge {
 .modes-card-title {
   margin: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 1.1;
   text-transform: uppercase;
@@ -363,7 +363,7 @@ span.feature-card-badge {
 
 .modes-card-desc {
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   color: #fff;
 }
