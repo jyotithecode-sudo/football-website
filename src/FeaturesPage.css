@@ -123,11 +123,10 @@
     font-size: 106px;
   }
 }
-@media (min-width: 767px) {
-.features-hero-content {
+@media (max-width: 767px) {
+  .features-hero-content {
     max-width: 326px !important;
-
-}
+  }
 }
 /* ---------- Immersive match experience ---------- */
 
