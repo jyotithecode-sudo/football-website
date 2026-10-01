@@ -30,7 +30,29 @@ const SOCIALS = [
     primary: false,
   },
 ];
-
+const ACTIONS = [
+  {
+    image: "/images/action-1.png",
+    title: "MATCH HIGHLIGHTS",
+    link: "See the highlights",
+    href: "#", // asli link daalo
+    big: true,
+  },
+  {
+    image: "/images/action-2.png",
+    title: "TEAM BUILDS",
+    link: "Talk tactics on Discord",
+    href: DISCORD_LINK,
+    big: false,
+  },
+  {
+    image: "/images/action-3.png",
+    title: "EXCLUSIVE EVENTS",
+    link: "Follow event announcements",
+    href: "#", // asli link daalo
+    big: false,
+  },
+];
 export default function CommunityPage() {
   return (
     <>
@@ -132,6 +154,47 @@ export default function CommunityPage() {
           </div>
         </div>
       </section>
+      {/* ---------- Action (See the Action.) ---------- */}
+<section className="action-section">
+  <div className="action-container">
+    <div className="action-header">
+      <div className="action-heading">
+        <p className="action-eyebrow">FROM INSIDE THE GAME</p>
+        <h2 className="action-title">
+          SEE THE <span className="action-title-pink">ACTION.</span>
+        </h2>
+      </div>
+
+      <p className="action-paragraph">
+        Match moments, squad tactics, and the road to your next trophy.
+      </p>
+    </div>
+
+    <div className="action-grid">
+      {ACTIONS.map((item) => (
+        <div
+          key={item.title}
+          className={`action-card ${item.big ? "action-card-big" : ""}`}
+        >
+          <img src={item.image} alt={item.title} className="action-card-image" />
+          <div className="action-card-overlay" />
+
+          <div className="action-card-content">
+            <h3 className="action-card-title">{item.title}</h3>
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noreferrer"
+              className="action-card-link"
+            >
+              {item.link}
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
     </>
   );
 }
