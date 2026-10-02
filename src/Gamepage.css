@@ -204,3 +204,237 @@
     font-size: 14px;
   }
 }
+
+/* =========================================
+   GAMEPLAY SECTION (Every Move Matters.)
+   ========================================= */
+
+/* Full width (1440) */
+.gameplay-section {
+  width: 100%;
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  background: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.gameplay-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;                        /* Figma gap 40 */
+  box-sizing: border-box;
+}
+
+/* ---------- Header ---------- */
+.gameplay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.gameplay-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gameplay-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.gameplay-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.gameplay-title-pink {
+  color: var(--primary-color);
+}
+
+.gameplay-paragraph {
+  width: 340px;
+  max-width: 100%;
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+
+/* ---------- Body: image left + list right ---------- */
+.gameplay-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;                        /* Figma gap 40 */
+  align-items: stretch;
+}
+
+.gameplay-image-wrap {
+  width: 100%;
+  min-height: 476px;                /* Figma height 476 */
+  overflow: hidden;
+}
+
+.gameplay-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ---------- List ---------- */
+.gameplay-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameplay-item {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border-color);
+  box-sizing: border-box;
+}
+
+.gameplay-item:first-child {
+  padding-top: 0;
+}
+
+.gameplay-item-number {
+  flex: 0 0 auto;
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+
+.gameplay-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gameplay-item-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.gameplay-item-desc {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .gameplay-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .gameplay-title {
+    font-size: 52px;
+  }
+
+  .gameplay-body {
+    gap: 24px;
+  }
+
+  .gameplay-item-title {
+    font-size: 22px;
+  }
+}
+
+/* ---------- Mobile: stack (image upar, list neeche) ---------- */
+@media (max-width: 767px) {
+  .gameplay-section {
+    padding: 40px 0;
+  }
+
+  .gameplay-container {
+    gap: 24px;
+  }
+
+  .gameplay-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .gameplay-eyebrow {
+    font-size: 12px;
+  }
+
+  .gameplay-title {
+    font-size: 40px;
+  }
+
+  .gameplay-paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .gameplay-body {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .gameplay-image-wrap {
+    min-height: 260px;
+    aspect-ratio: 16 / 11;
+  }
+
+  .gameplay-item {
+    gap: 16px;
+    padding: 20px 0;
+  }
+
+  .gameplay-item:first-child {
+    padding-top: 20px;
+  }
+
+  .gameplay-item-number {
+    font-size: 20px;
+  }
+
+  .gameplay-item-title {
+    font-size: 20px;
+  }
+
+  .gameplay-item-text {
+    gap: 10px;
+  }
+
+  .gameplay-item-desc {
+    font-size: 14px;
+  }
+}
