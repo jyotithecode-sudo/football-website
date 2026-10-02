@@ -1,0 +1,384 @@
+/* =========================================
+   ROOT VARIABLES
+   ========================================= */
+:root {
+  --primary-color: #ec1a6d;
+  --primary-hover: #d4165f;
+  --secondary-color: #2dd4bf;
+
+  --background-color: #0a0e16;
+  --dark-bg: #02060b;
+  --border-color: #666969;
+  --white-color: #ffffff;
+
+  --font-primary: "Inter", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+}
+
+/* =========================================
+   SHOP HERO (Wear the Game.)
+   ========================================= */
+
+/* Full width (1440) */
+.shop-hero {
+  width: 100%;
+  min-height: 482px;                /* Figma height 482 */
+  display: flex;
+  align-items: center;
+  overflow: hidden;                 /* Figma: clip content */
+  background: #e9eaeb;              /* Figma fill E9EAEB */
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.shop-hero-container {
+  position: relative;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.shop-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;                        /* Figma gap 10 */
+  padding: 30px 0;
+  max-width: 521px;                 /* Figma width 521 */
+  flex-shrink: 0;
+}
+
+.shop-hero-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--dark-bg);
+}
+
+.shop-hero-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--dark-bg);
+}
+
+.shop-hero-title-pink {
+  color: var(--primary-color);
+}
+
+.shop-hero-text {
+  margin: 0;
+  max-width: 300px;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-bg);
+}
+
+/* Products image (Figma 764 x 354) */
+.shop-hero-products {
+  width: 100%;
+  max-width: 764px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* "Same Passion Bigger Tomorrow" image, top right (Figma 212 x 201, opacity 60%) */
+.shop-hero-slogan {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 212px;
+  height: auto;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .shop-hero-container {
+    padding: 0 20px;
+  }
+
+  .shop-hero-slogan {
+    right: 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .shop-hero-title {
+    font-size: 72px;
+  }
+
+  .shop-hero-slogan {
+    width: 160px;
+  }
+}
+
+/* ---------- Mobile: stack ---------- */
+@media (max-width: 767px) {
+  .shop-hero {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .shop-hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .shop-hero-content {
+    padding: 0;
+  }
+
+  .shop-hero-eyebrow {
+    font-size: 11px;
+  }
+
+  .shop-hero-title {
+    font-size: 52px;
+  }
+
+  .shop-hero-text {
+    font-size: 14px;
+  }
+
+  .shop-hero-slogan {
+    display: none;
+  }
+}
+
+/* =========================================
+   COLLECTION SECTION (Matchday. Everyday.)
+   ========================================= */
+
+/* Full width (1440) */
+.collection-section {
+  position: relative;
+  width: 100%;
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  overflow: hidden;
+  background-color: #000509;        /* Figma fill 000509 */
+  box-sizing: border-box;
+}
+
+.collection-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Background ke upar linear gradient (Figma: Linear) */
+.collection-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 5, 9, 0) 0%,
+    rgba(0, 5, 9, 0.5) 60%,
+    #000509 100%
+  );
+}
+
+/* Content sirf 1220 me */
+.collection-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;                        /* Figma gap 20 */
+  box-sizing: border-box;
+}
+
+/* ---------- Header ---------- */
+.collection-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.collection-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.collection-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.collection-title-pink {
+  color: var(--primary-color);
+}
+
+.collection-text {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+/* ---------- Cards (Desktop: 3 cards) ---------- */
+.collection-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;                        /* Figma gap 20 */
+}
+
+.collection-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  background: #000509;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.collection-card:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-4px);
+}
+
+.collection-card-image-wrap {
+  width: 100%;
+  height: 385px;                    /* Figma height 385 */
+  overflow: hidden;
+}
+
+.collection-card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.collection-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;                        /* Figma gap 16 */
+  padding: 24px;                    /* Figma padding 24 */
+}
+
+.collection-card-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+/* Title ke neeche chhoti pink line */
+.collection-card-line {
+  display: block;
+  width: 28px;
+  height: 2px;
+  margin-top: -8px;
+  background: var(--primary-color);
+}
+
+.collection-card-btn {
+  display: inline-block;
+  padding: 14px 20px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  font-family: var(--font-primary);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.collection-card-btn:hover {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .collection-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .collection-title {
+    font-size: 52px;
+  }
+
+  .collection-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .collection-card-image-wrap {
+    height: 320px;
+  }
+}
+
+/* ---------- Mobile: cards stack ---------- */
+@media (max-width: 767px) {
+  .collection-section {
+    padding: 40px 0;
+  }
+
+  .collection-eyebrow {
+    font-size: 12px;
+  }
+
+  .collection-title {
+    font-size: 38px;
+  }
+
+  .collection-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .collection-card-image-wrap {
+    height: 300px;
+  }
+
+  .collection-card-body {
+    padding: 20px;
+  }
+
+  .collection-card-title {
+    font-size: 24px;
+  }
+}

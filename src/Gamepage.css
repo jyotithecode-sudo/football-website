@@ -655,3 +655,380 @@
     font-size: 22px;
   }
 }
+
+/* =========================================
+   SHOTS SECTION (See the Action.)
+   ========================================= */
+
+/* Full width (1440) */
+.shots-section {
+  width: 100%;
+  padding: 60px 0;                  /* Figma: 60 top/bottom */
+  background: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.shots-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;                        /* Figma gap 40 */
+  box-sizing: border-box;
+}
+
+/* ---------- Header ---------- */
+.shots-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.shots-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shots-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.shots-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.shots-title-pink {
+  color: var(--primary-color);
+}
+
+.shots-paragraph {
+  width: 300px;
+  max-width: 100%;
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+
+/* ---------- Cards (Desktop: 3 cards) ---------- */
+.shots-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.shots-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  background: var(--dark-bg);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.shots-card:hover,
+.shots-card-active {
+  border-color: var(--primary-color);
+}
+
+.shots-card:hover {
+  transform: translateY(-4px);
+}
+
+.shots-card-image-wrap {
+  width: 100%;
+  height: 216px;
+  overflow: hidden;
+}
+
+.shots-card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.shots-card-body {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 24px 16px;
+}
+
+.shots-card-number {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--secondary-color);
+}
+
+.shots-card-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .shots-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .shots-title {
+    font-size: 52px;
+  }
+
+  .shots-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .shots-card-image-wrap {
+    height: 200px;
+  }
+}
+
+/* ---------- Mobile: cards stack ---------- */
+@media (max-width: 767px) {
+  .shots-section {
+    padding: 40px 0;
+  }
+
+  .shots-container {
+    gap: 24px;
+  }
+
+  .shots-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .shots-eyebrow {
+    font-size: 12px;
+  }
+
+  .shots-title {
+    font-size: 40px;
+  }
+
+  .shots-paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .shots-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .shots-card-image-wrap {
+    height: 200px;
+  }
+
+  .shots-card-body {
+    padding: 18px 16px;
+  }
+
+  .shots-card-title {
+    font-size: 18px;
+  }
+}
+
+/* =========================================
+   DOWNLOAD SECTION (Your Next Match Starts Here.)
+   ========================================= */
+
+/* Full width (1440) */
+.download-section {
+  position: relative;
+  width: 100%;
+  min-height: 476px;                /* Figma height 476 */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+.download-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Text readable rakhne ke liye dark overlay */
+.download-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(2, 6, 11, 0.55);
+}
+
+/* Content sirf 1220 me, center aligned */
+.download-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.download-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;                        /* Figma gap 24 */
+  max-width: 516px;
+  text-align: center;
+}
+
+.download-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.download-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.download-title-pink {
+  color: var(--primary-color);
+}
+
+.download-text {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+/* ---------- Store buttons ---------- */
+.download-stores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download-store {
+  display: inline-block;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.download-store:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+
+.download-store-img {
+  display: block;
+  height: 48px;
+  width: auto;
+}
+
+.download-note {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .download-container {
+    padding: 60px 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .download-title {
+    font-size: 52px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 767px) {
+  .download-section {
+    min-height: auto;
+  }
+
+  .download-container {
+    padding: 48px 20px;
+  }
+
+  .download-content {
+    gap: 18px;
+  }
+
+  .download-eyebrow {
+    font-size: 11px;
+  }
+
+  .download-title {
+    font-size: 40px;
+  }
+
+  .download-text {
+    font-size: 14px;
+  }
+
+  .download-stores {
+    flex-wrap: wrap;
+  }
+
+  .download-store-img {
+    height: 44px;
+  }
+
+  .download-note {
+    font-size: 11px;
+  }
+}

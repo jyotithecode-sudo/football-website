@@ -1,0 +1,830 @@
+/* =========================================
+   ROOT VARIABLES
+   ========================================= */
+:root {
+  --primary-color: #ec1a6d;
+  --primary-hover: #d4165f;
+  --secondary-color: #2dd4bf;
+
+  --background-color: #0a0e16;
+  --dark-bg: #02060b;
+  --border-color: #666969;
+  --white-color: #ffffff;
+
+  --font-primary: "Inter", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+}
+
+/* =========================================
+   NEWS HERO (Stay in the Game.)
+   ========================================= */
+
+/* Full width (1440) */
+.news-hero {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 481px;                
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+.news-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.news-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 6, 11, 0.92) 0%,
+    rgba(2, 6, 11, 0.7) 35%,
+    rgba(2, 6, 11, 0.15) 70%,
+    rgba(2, 6, 11, 0) 100%
+  );
+}
+
+/* Content sirf 1220 me */
+.news-hero-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 75px 0;
+  box-sizing: border-box;
+}
+
+.news-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;                        
+  max-width: 559px;                 
+}
+
+.news-hero-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.news-hero-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.news-hero-title-pink {
+  color: var(--primary-color);
+}
+
+.news-hero-text {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--white-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .news-hero-container {
+    padding: 75px 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .news-hero-title {
+    font-size: 72px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 767px) {
+  .news-hero {
+    min-height: 380px;
+  }
+
+  .news-hero-container {
+    padding: 50px 20px;
+  }
+
+  .news-hero-eyebrow {
+    font-size: 11px;
+  }
+
+  .news-hero-title {
+    font-size: 48px;
+  }
+
+  .news-hero-text {
+    font-size: 14px;
+  }
+}
+/* =========================================
+   FEATURED SECTION (New Clubs. Same Passion.)
+   ========================================= */
+
+/* Full width (1440) */
+.featured-section {
+  width: 100%;
+  padding: 60px 0;                  
+  background: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.featured-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Border wala card: image left + text right */
+.featured-card {
+  display: grid;
+  grid-template-columns: 784fr 436fr;   
+  min-height: 444px;                    
+  border: 1px solid var(--border-color);
+  background: var(--dark-bg);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ---------- Image ---------- */
+.featured-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.featured-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Image ke neeche/right me halka dark fade (Figma linear gradient) */
+.featured-image-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 11, 0) 50%,
+    rgba(2, 6, 11, 0.75) 100%
+  );
+}
+
+/* ---------- Text ---------- */
+.featured-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;                        
+  padding: 40px 24px;
+  box-sizing: border-box;
+}
+
+.featured-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.featured-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.featured-title-pink {
+  color: var(--primary-color);
+}
+
+.featured-text {
+  margin: 0;
+  max-width: 340px;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+.featured-btn {
+  display: inline-block;
+  padding: 14px 20px;               
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: background 0.2s, border-color 0.2s;
+}
+.featured-image-fade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 11, 0) 0%,
+    rgba(2, 6, 11, 0) 35%,
+    rgba(2, 6, 11, 0.6) 70%,
+    #02060b 100%
+  );
+}
+.featured-btn:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .featured-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .featured-card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-title {
+    font-size: 42px;
+  }
+}
+
+/* ---------- Mobile: stack (image upar, text neeche) ---------- */
+@media (max-width: 767px) {
+  .featured-section {
+    padding: 40px 0;
+  }
+
+  .featured-card {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .featured-image-wrap {
+    height: 240px;
+  }
+
+  .featured-content {
+    gap: 18px;
+    padding: 28px 20px;
+  }
+
+  .featured-eyebrow {
+    font-size: 11px;
+  }
+
+  .featured-title {
+    font-size: 38px;
+  }
+
+  .featured-text {
+    max-width: 100%;
+    font-size: 14px;
+  }
+}
+/* =========================================
+   LEAGUE SECTION (From the League.)
+   ========================================= */
+
+/* Full width (1440) */
+.league-section {
+  width: 100%;
+  padding-bottom: 60px;               
+  background: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me */
+.league-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;                        
+  box-sizing: border-box;
+}
+
+/* ---------- Heading + filters ---------- */
+.league-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.league-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.league-title-pink {
+  color: var(--primary-color);
+}
+
+.league-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.league-filter {
+  padding: 10px 16px;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.league-filter:hover {
+  border-color: var(--primary-color);
+}
+
+.league-filter-active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* ---------- Cards grid ---------- */
+.league-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.league-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  background: var(--dark-bg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.league-card:hover {
+  border-color: var(--primary-color);
+  transform: translateY(-4px);
+}
+
+.league-card-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 221px;                    
+  overflow: hidden;
+}
+
+.league-card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Image ke neeche halka dark fade (Figma linear) */
+.league-card-fade {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 11, 0) 60%,
+    rgba(2, 6, 11, 0.7) 100%
+  );
+}
+
+.league-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;                      
+  padding: 24px;                    
+}
+
+.league-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.league-card-tag {
+  font-family: var(--font-primary);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.league-card-date {
+  font-family: var(--font-primary);
+  font-size: 11px;
+  color: var(--white-color);
+}
+
+.league-card-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.league-card-desc {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+.league-card-link {
+  align-self: flex-start;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+/* ---------- Explore button ---------- */
+.league-more {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+
+.league-more-btn {
+  padding: 16px 24px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  font-family: var(--font-primary);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: border-color 0.2s;
+}
+
+.league-more-btn:hover {
+  border-color: var(--primary-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .league-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .league-title {
+    font-size: 52px;
+  }
+
+  .league-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 767px) {
+  .league-section {
+    padding: 40px 0;
+  }
+
+  .league-title {
+    font-size: 40px;
+  }
+
+  .league-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .league-card-image-wrap {
+    height: 200px;
+  }
+
+  .league-card-body {
+    padding: 20px;
+  }
+
+  .league-card-title {
+    font-size: 22px;
+  }
+}
+
+/* =========================================
+   ARTICLE PAGE (News detail)
+   ========================================= */
+
+/* Full width (1440) */
+.article-section {
+  width: 100%;
+  padding: 60px 0;
+  background: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+/* Content sirf 1220 me, article beech me */
+.article-container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.article-card {
+  width: 100%;
+  max-width: 948px;                 
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color);
+  background: var(--dark-bg);
+}
+
+.article-back {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: opacity 0.2s;
+}
+
+.article-back:hover {
+  opacity: 0.8;
+}
+
+.article-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.article-text p {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .article-container {
+    padding: 0 20px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 767px) {
+  .article-section {
+    padding: 40px 0;
+  }
+
+  .article-card {
+    padding: 20px;
+    gap: 18px;
+  }
+
+  .article-title {
+    font-size: 34px;
+  }
+
+  .article-text {
+    gap: 20px;
+  }
+}
+/* =========================================
+   CTA SECTION (The Game Continues.)
+   ========================================= */
+
+/* Full width (1440) */
+.cont-section {
+  position: relative;
+  width: 100%;
+  min-height: 353px;                
+  display: flex;
+  align-items: center;
+  overflow: hidden;                 
+  background-color: var(--dark-bg);
+  box-sizing: border-box;
+}
+
+.cont-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+/* Image ke upar linear gradient (Figma: Linear fill) */
+.cont-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 6, 11, 0.55) 0%,
+    rgba(2, 6, 11, 0.35) 50%,
+    rgba(2, 6, 11, 0.85) 100%
+  );
+}
+
+/* Content sirf 1220 me, center */
+.cont-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 60px 0;                  
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.cont-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;                        
+  text-align: center;
+}
+
+.cont-eyebrow {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.cont-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.cont-title-pink {
+  color: var(--primary-color);
+}
+
+.cont-text {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-color);
+}
+
+.cont-btn {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 14px 20px;               
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cont-btn:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+/* ---------- Laptop / small desktop ---------- */
+@media (max-width: 1260px) {
+  .cont-container {
+    padding: 60px 20px;
+  }
+}
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .cont-title {
+    font-size: 52px;
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 767px) {
+  .cont-section {
+    min-height: auto;
+  }
+
+  .cont-container {
+    padding: 48px 20px;
+  }
+
+  .cont-eyebrow {
+    font-size: 11px;
+  }
+
+  .cont-title {
+    font-size: 36px;
+  }
+
+  .cont-text {
+    font-size: 14px;
+  }
+}

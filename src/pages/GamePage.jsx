@@ -16,6 +16,7 @@ const GAMEPLAY = [
     desc: "Dynamic pitches and commentary in 16 languages bring you closer to the match.",
   },
 ];
+
 const WAYS = [
   {
     title: "CAREER MODE",
@@ -38,6 +39,24 @@ const WAYS = [
     pink: true,
   },
 ];
+const SHOTS = [
+  {
+    image: "/images/shots-1.png",
+    title: "MATCH-DAY ATMOSPHERE",
+    pink: true,
+  },
+  {
+    image: "/images/shots-2.png",
+    title: "INTUITIVE CONTROLS",
+    pink: false,
+  },
+  {
+    image: "/images/shots-3.png",
+    title: "TACTICS STYLE",
+    pink: false,
+  },
+];
+
 export default function GamePage() {
   return (
     <>
@@ -160,6 +179,100 @@ export default function GamePage() {
     </div>
   </div>
 </section>
+{/* ---------- Shots (See the Action.) ---------- */}
+<section className="shots-section">
+  <div className="shots-container">
+    <div className="shots-header">
+      <div className="shots-heading">
+        <p className="shots-eyebrow">FROM INSIDE THE GAME</p>
+        <h2 className="shots-title">
+          SEE THE <span className="shots-title-pink">ACTION.</span>
+        </h2>
+      </div>
+
+      <p className="shots-paragraph">
+        Match moments, squad tactics, and the road to your next trophy.
+      </p>
+    </div>
+
+    <div className="shots-cards">
+      {SHOTS.map((item, i) => (
+        <div
+          key={item.title}
+          className={`shots-card ${item.pink ? "shots-card-active" : ""}`}
+        >
+          <div className="shots-card-image-wrap">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="shots-card-image"
+            />
+          </div>
+
+          <div className="shots-card-body">
+            <span className="shots-card-number">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <h3 className="shots-card-title">{item.title}</h3>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+{/* ---------- Download (Your Next Match Starts Here.) ---------- */}
+<section className="download-section">
+  <img src="/images/download-bg.png" alt="" className="download-bg" />
+  <div className="download-overlay" />
+
+  <div className="download-container">
+    <div className="download-content">
+      <p className="download-eyebrow">FOOTBALL LEAGUE 2026</p>
+
+      <h2 className="download-title">
+        YOUR NEXT MATCH
+        <br />
+        <span className="download-title-pink">STARTS HERE.</span>
+      </h2>
+
+      <p className="download-text">Free to play. Available on Android and iOS.</p>
+
+      <div className="download-stores">
+        <a
+          href="https://apps.apple.com"
+          target="_blank"
+          rel="noreferrer"
+          className="download-store"
+        >
+          <img
+            src="/images/app-store.png"
+            alt="Download on the App Store"
+            className="download-store-img"
+          />
+        </a>
+
+        <a
+          href="https://play.google.com"
+          target="_blank"
+          rel="noreferrer"
+          className="download-store"
+        >
+          <img
+            src="/images/google-play.png"
+            alt="Get it on Google Play"
+            className="download-store-img"
+          />
+        </a>
+      </div>
+
+      <p className="download-note">
+        Contains ads and in-app purchases. Content and licenses may vary by
+        region.
+      </p>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }
