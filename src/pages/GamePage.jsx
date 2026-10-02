@@ -16,6 +16,28 @@ const GAMEPLAY = [
     desc: "Dynamic pitches and commentary in 16 languages bring you closer to the match.",
   },
 ];
+const WAYS = [
+  {
+    title: "CAREER MODE",
+    desc: "Build your team, train hard, play smart, and rise to the top.",
+    pink: false,
+  },
+  {
+    title: "LEAGUE & CUP GAMES",
+    desc: "Take on club and national tournaments for glory.",
+    pink: true,
+  },
+  {
+    title: "WOMEN’S COMPETITIONS",
+    desc: "Inclusive leagues and tournaments celebrating women’s football.",
+    pink: false,
+  },
+  {
+    title: "FRIENDLIES & DRILLS",
+    desc: "Practice skills and master free kicks, penalties and set pieces.",
+    pink: true,
+  },
+];
 export default function GamePage() {
   return (
     <>
@@ -100,6 +122,41 @@ export default function GamePage() {
           </li>
         ))}
       </ul>
+    </div>
+  </div>
+</section>
+{/* ---------- Ways (More Ways to Play.) ---------- */}
+<section className="ways-section">
+  <img src="/images/ways-bg.png" alt="" className="ways-bg" />
+
+  <div className="ways-container">
+    <div className="ways-header">
+      <div className="ways-heading">
+        <p className="ways-eyebrow">GAME MODES</p>
+        <h2 className="ways-title">
+          MORE WAYS <span className="ways-title-pink">TO PLAY.</span>
+        </h2>
+      </div>
+
+      <p className="ways-paragraph">
+        Build a career, chase a cup, or sharpen your skills.
+      </p>
+    </div>
+
+    <div className="ways-cards">
+      {WAYS.map((item, i) => (
+        <div key={item.title} className="ways-card">
+          <span
+            className={`ways-card-number ${
+              item.pink ? "ways-card-number-pink" : ""
+            }`}
+          >
+            {String(i + 1).padStart(2, "0")}
+          </span>
+          <h3 className="ways-card-title">{item.title}</h3>
+          <p className="ways-card-desc">{item.desc}</p>
+        </div>
+      ))}
     </div>
   </div>
 </section>
