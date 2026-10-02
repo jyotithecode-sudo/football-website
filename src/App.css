@@ -181,6 +181,93 @@ span.lang-icon svg {
   .navbar-actions { display: flex; }
   .menu-toggle { display: none; }
 }
+/* ---------- Language dropdown ---------- */
+.lang-wrap {
+  position: relative;
+}
+
+.lang-arrow {
+  display: inline-flex;
+  transition: transform 0.2s;
+}
+
+.lang-arrow-open {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  inset-inline-end: 0;
+  z-index: 100;
+  min-width: 180px;
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+  background: #02060b;
+  border: 1px solid #666969;
+}
+
+.lang-option {
+  width: 100%;
+  padding: 10px 16px;
+  background: transparent;
+  border: 0;
+  font-size: 14px;
+  text-align: start;
+  color: #fff;
+  cursor: pointer;
+}
+
+.lang-option:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.lang-option-active {
+  color: #ec1a6d;
+  font-weight: 600;
+}
+
+.mobile-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.mobile-lang {
+  padding: 8px 12px;
+  background: transparent;
+  border: 1px solid #666969;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mobile-lang-active {
+  background: #ec1a6d;
+  border-color: #ec1a6d;
+}
+
+/* ---------- Language-specific fonts + RTL ---------- */
+html[lang="zh"] {
+  --font-heading: "Noto Sans SC", sans-serif;
+  --font-primary: "Noto Sans SC", sans-serif;
+}
+
+html[lang="ja"] {
+  --font-heading: "Noto Sans JP", sans-serif;
+  --font-primary: "Noto Sans JP", sans-serif;
+}
+
+html[lang="ar"] {
+  --font-heading: "Noto Sans Arabic", sans-serif;
+  --font-primary: "Noto Sans Arabic", sans-serif;
+}
+
+html[lang="ar"] * {
+  letter-spacing: 0 !important;
+}
 
 /* ---------- Hero ---------- */
 .hero {
@@ -690,6 +777,10 @@ span.lang-icon svg {
   background: #0a0e16;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding: 40px 0 32px;
+}
+.lang-menu-up {
+  top: auto;
+  bottom: calc(100% + 10px);
 }
 .footer-top {
   display: flex;

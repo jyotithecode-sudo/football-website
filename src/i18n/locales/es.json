@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "game": "Juego",
+    "features": "Características",
+    "community": "Comunidad",
+    "shop": "Tienda",
+    "news": "Noticias",
+    "playNow": "Jugar ahora"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "JUGADORES REALES. PARTIDOS REALES.",
+      "line1": "EL FÚTBOL",
+      "pink": "VIVE",
+      "rest": "AQUÍ",
+      "subtitle": "UN JUEGO GLOBAL PARA TODOS."
+    },
+    "stats": {
+      "s1": { "value": "100M+", "label": "Descargas" },
+      "s2": { "value": "200+", "label": "Países" },
+      "s3": { "value": "4.7★", "label": "Valoración de la app" },
+      "s4": { "value": "Millones", "label": "de jugadores" }
+    },
+    "pillars": {
+      "play": { "title": "JUEGA", "subtitle": "Rápido. Fluido. Divertido." },
+      "compete": { "title": "COMPITE", "subtitle": "Ligas globales. Recompensas reales." },
+      "build": { "title": "CONSTRUYE", "subtitle": "Crea el equipo de tus sueños." }
+    },
+    "features": {
+      "eyebrow": "CARACTERÍSTICAS DEL JUEGO",
+      "title1": "MÁS FORMAS",
+      "titlePink": "DE JUGAR",
+      "text": "Múltiples modos de juego, equipos y jugadores reales, y una experiencia de fútbol fiel a la realidad, en cualquier momento y lugar."
+    },
+    "merch": {
+      "eyebrow": "CARACTERÍSTICAS DEL JUEGO",
+      "title1": "VISTE",
+      "title2": "EL JUEGO",
+      "text": "Mercancía oficial de Football League 2026 en Spreadshop."
+    },
+    "news": {
+      "eyebrow": "NOTICIAS Y COMUNIDAD",
+      "title1": "MANTENTE EN",
+      "titlePink": "EL JUEGO",
+      "text": "Actualizaciones, eventos e historias de todo el mundo.",
+      "viewAll": "Ver todas las noticias",
+      "items": {
+        "n1": { "title": "La actualización de verano de FL2026 trae la Copa Internacional" },
+        "n2": { "title": "Consejos para mejorar tus habilidades en FL2026" },
+        "n3": { "title": "Únete a nuestra comunidad global" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. Todos los derechos reservados.",
+  "privacy": "Privacidad",
+  "terms": "Términos",
+  "support": "Soporte"
+}
+}

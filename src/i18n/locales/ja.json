@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "game": "ゲーム",
+    "features": "機能",
+    "community": "コミュニティ",
+    "shop": "ショップ",
+    "news": "ニュース",
+    "playNow": "今すぐプレイ"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "リアルな選手。リアルな試合。",
+      "line1": "フットボールは",
+      "pink": "ここに生きる",
+      "rest": "",
+      "subtitle": "すべての人のためのグローバルゲーム。"
+    },
+    "stats": {
+      "s1": { "value": "1億+", "label": "ダウンロード" },
+      "s2": { "value": "200+", "label": "の国と地域" },
+      "s3": { "value": "4.7★", "label": "アプリ評価" },
+      "s4": { "value": "数百万人", "label": "のプレイヤー" }
+    },
+    "pillars": {
+      "play": { "title": "プレイ", "subtitle": "速く。なめらかに。楽しく。" },
+      "compete": { "title": "対戦", "subtitle": "グローバルリーグ。本物の報酬。" },
+      "build": { "title": "育成", "subtitle": "夢のチームを作ろう。" }
+    },
+    "features": {
+      "eyebrow": "ゲームの特徴",
+      "title1": "もっと広がる",
+      "titlePink": "遊び方",
+      "text": "多彩なゲームモード、実在のチームと選手、そして本物のようなサッカー体験を、いつでもどこでも。"
+    },
+    "merch": {
+      "eyebrow": "ゲームの特徴",
+      "title1": "ゲームを",
+      "title2": "身にまとおう",
+      "text": "Football League 2026 公式グッズを Spreadshop で販売中。"
+    },
+    "news": {
+      "eyebrow": "ニュース＆コミュニティ",
+      "title1": "最新情報を",
+      "titlePink": "チェック",
+      "text": "世界中のゲームアップデート、イベント、ストーリーをお届けします。",
+      "viewAll": "すべてのニュースを見る",
+      "items": {
+        "n1": { "title": "FL2026 サマーアップデートでインターナショナルカップが登場" },
+        "n2": { "title": "FL2026 で上達するためのヒント" },
+        "n3": { "title": "グローバルコミュニティに参加しよう" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. All rights reserved.",
+  "privacy": "プライバシー",
+  "terms": "利用規約",
+  "support": "サポート"
+}
+}

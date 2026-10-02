@@ -1,25 +1,23 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
-const STATS = [
-  { value: "100M+", label: "Downloads" },
-  { value: "200+", label: "Countries" },
-  { value: "4.7★", label: "App Rating" },
-  { value: "Millions", label: "of Players" },
-];
+const STATS = ["s1", "s2", "s3", "s4"];
 
 const PILLARS = [
-  { title: "PLAY", subtitle: "Fast. Fluid. Fun.", accent: "pink", image: "/images/play.png" },
-  { title: "COMPETE", subtitle: "Global leagues. Real rewards.", accent: "teal", image: "/images/compete.png" },
-  { title: "BUILD", subtitle: "Create your dream team.", accent: "pink", image: "/images/build.png" },
+  { key: "play", accent: "pink", image: "/images/play.png" },
+  { key: "compete", accent: "teal", image: "/images/compete.png" },
+  { key: "build", accent: "pink", image: "/images/build.png" },
 ];
 
 const NEWS = [
-  { title: "FL2026 Summer Update Brings the International Cup", date: "Jul 10, 2026", image: "/images/news-1.png" },
-  { title: "Tips to Improve Your Skills in FL2026", date: "Jul 2, 2026", image: "/images/news-2.png" },
-  { title: "Join Our Global Community", date: "Jul 25, 2026", image: "/images/news-3.png" },
+  { key: "n1", date: "2026-07-10", image: "/images/news-1.png" },
+  { key: "n2", date: "2026-07-02", image: "/images/news-2.png" },
+  { key: "n3", date: "2026-07-25", image: "/images/news-3.png" },
 ];
 
 function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <img
@@ -30,20 +28,21 @@ function Hero() {
       <div className="hero-overlay" />
 
       <div className="hero-content">
-        <p className="eyebrow">REAL PLAYERS. REAL MATCHES.</p>
+        <p className="eyebrow">{t("home.hero.eyebrow")}</p>
         <h1 className="hero-title">
-          FOOTBALL
+          {t("home.hero.line1")}
           <br />
-          <span className="text-pink">LIVES</span> HERE
+          <span className="text-pink">{t("home.hero.pink")}</span>{" "}
+          {t("home.hero.rest")}
         </h1>
-        <p className="hero-subtitle">A GLOBAL GAME FOR EVERYONE.</p>
+        <p className="hero-subtitle">{t("home.hero.subtitle")}</p>
         <div className="divider" />
 
         <dl className="stats">
-          {STATS.map((s) => (
-            <div key={s.label} className="stat">
-              <dt className="stat-value">{s.value}</dt>
-              <dd className="stat-label">{s.label}</dd>
+          {STATS.map((key) => (
+            <div key={key} className="stat">
+              <dt className="stat-value">{t(`home.stats.${key}.value`)}</dt>
+              <dd className="stat-label">{t(`home.stats.${key}.label`)}</dd>
             </div>
           ))}
         </dl>
@@ -59,12 +58,14 @@ function Hero() {
 }
 
 function Pillars() {
+  const { t } = useTranslation();
+
   return (
     <section className="pillars">
       <div className="pillars-grid">
         {PILLARS.map((p) => (
           <div
-            key={p.title}
+            key={p.key}
             className="pillar-card"
             style={{
               backgroundImage: `linear-gradient(
@@ -76,8 +77,10 @@ function Pillars() {
               ), url(${p.image})`,
             }}
           >
-            <h3 className="pillar-title">{p.title}</h3>
-            <p className="pillar-subtitle">{p.subtitle}</p>
+            <h3 className="pillar-title">{t(`home.pillars.${p.key}.title`)}</h3>
+            <p className="pillar-subtitle">
+              {t(`home.pillars.${p.key}.subtitle`)}
+            </p>
             <div className={`pillar-underline underline-${p.accent}`} />
           </div>
         ))}
@@ -87,21 +90,20 @@ function Pillars() {
 }
 
 function GameFeatures() {
+  const { t } = useTranslation();
+
   return (
     <section className="features">
       <img src="/images/features.png" alt="" className="features-bg" />
       <div className="features-inner">
         <div className="features-text">
-          <p className="eyebrow eyebrow-pink">GAME FEATURES</p>
+          <p className="eyebrow eyebrow-pink">{t("home.features.eyebrow")}</p>
           <h2 className="section-title">
-            MORE WAYS
+            {t("home.features.title1")}
             <br />
-            <span className="text-pink">TO PLAY</span>
+            <span className="text-pink">{t("home.features.titlePink")}</span>
           </h2>
-          <p className="section-text">
-            Multiple game modes, real teams and players, and a true to life
-            football experience — anytime, anywhere.
-          </p>
+          <p className="section-text">{t("home.features.text")}</p>
         </div>
 
         <div className="devices-mock">
@@ -122,18 +124,20 @@ function GameFeatures() {
 }
 
 function Merch() {
+  const { t } = useTranslation();
+
   return (
     <section className="merch">
       <div className="merch-inner">
         <div className="merch-text">
-          <p className="eyebrow eyebrow-muted">GAME FEATURES</p>
+          <p className="eyebrow eyebrow-muted">{t("home.merch.eyebrow")}</p>
           <h2 className="section-title section-title-dark">
-            WEAR
+            {t("home.merch.title1")}
             <br />
-            THE GAME
+            {t("home.merch.title2")}
           </h2>
           <p className="section-text section-text-dark">
-            Official Football League 2026 merchandise on Spreadshop.
+            {t("home.merch.text")}
           </p>
         </div>
 
@@ -154,33 +158,42 @@ function Merch() {
 }
 
 function News() {
+  const { t, i18n } = useTranslation();
+
+  const formatDate = (iso) =>
+    new Date(iso).toLocaleDateString(i18n.language, {
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    });
+
   return (
     <section className="news">
       <div className="news-inner">
         <div className="news-header">
           <div className="news-text">
-            <p className="eyebrow eyebrow-pink">NEWS &amp; COMMUNITY</p>
+            <p className="eyebrow eyebrow-pink">{t("home.news.eyebrow")}</p>
             <h2 className="section-title">
-              STAY IN
+              {t("home.news.title1")}
               <br />
-              <span className="text-pink">THE GAME</span>
+              <span className="text-pink">{t("home.news.titlePink")}</span>
             </h2>
-            <p className="section-text">
-              Game updates, events and stories from around the world.
-            </p>
+            <p className="section-text">{t("home.news.text")}</p>
           </div>
           <Link to="/news" className="view-all">
-            View All News <span>→</span>
+            {t("home.news.viewAll")} <span>→</span>
           </Link>
         </div>
 
         <div className="news-grid">
           {NEWS.map((n) => (
-            <article key={n.title} className="news-card">
+            <article key={n.key} className="news-card">
               <img src={n.image} alt="" className="news-thumb" />
               <div className="news-body">
-                <h3 className="news-title">{n.title}</h3>
-                <p className="news-date">{n.date}</p>
+                <h3 className="news-title">
+                  {t(`home.news.items.${n.key}.title`)}
+                </h3>
+                <p className="news-date">{formatDate(n.date)}</p>
               </div>
             </article>
           ))}

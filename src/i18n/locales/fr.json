@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "game": "Jeu",
+    "features": "Fonctionnalités",
+    "community": "Communauté",
+    "shop": "Boutique",
+    "news": "Actualités",
+    "playNow": "Jouer maintenant"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "DE VRAIS JOUEURS. DE VRAIS MATCHS.",
+      "line1": "LE FOOTBALL",
+      "pink": "VIT",
+      "rest": "ICI",
+      "subtitle": "UN JEU MONDIAL POUR TOUS."
+    },
+    "stats": {
+      "s1": { "value": "100M+", "label": "Téléchargements" },
+      "s2": { "value": "200+", "label": "Pays" },
+      "s3": { "value": "4,7★", "label": "Note de l'appli" },
+      "s4": { "value": "Des millions", "label": "de joueurs" }
+    },
+    "pillars": {
+      "play": { "title": "JOUEZ", "subtitle": "Rapide. Fluide. Fun." },
+      "compete": { "title": "AFFRONTEZ-VOUS", "subtitle": "Ligues mondiales. Vraies récompenses." },
+      "build": { "title": "CONSTRUISEZ", "subtitle": "Créez l'équipe de vos rêves." }
+    },
+    "features": {
+      "eyebrow": "FONCTIONNALITÉS DU JEU",
+      "title1": "PLUS DE FAÇONS",
+      "titlePink": "DE JOUER",
+      "text": "Plusieurs modes de jeu, de vraies équipes et de vrais joueurs, et une expérience de football fidèle à la réalité, à tout moment, partout."
+    },
+    "merch": {
+      "eyebrow": "FONCTIONNALITÉS DU JEU",
+      "title1": "PORTEZ",
+      "title2": "LE JEU",
+      "text": "Les produits officiels Football League 2026 sur Spreadshop."
+    },
+    "news": {
+      "eyebrow": "ACTUALITÉS ET COMMUNAUTÉ",
+      "title1": "RESTEZ DANS",
+      "titlePink": "LE JEU",
+      "text": "Mises à jour, événements et histoires du monde entier.",
+      "viewAll": "Voir toutes les actualités",
+      "items": {
+        "n1": { "title": "La mise à jour d'été de FL2026 apporte la Coupe internationale" },
+        "n2": { "title": "Conseils pour améliorer vos compétences dans FL2026" },
+        "n3": { "title": "Rejoignez notre communauté mondiale" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. Tous droits réservés.",
+  "privacy": "Confidentialité",
+  "terms": "Conditions",
+  "support": "Assistance"
+}
+}

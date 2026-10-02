@@ -1,20 +1,46 @@
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { LANGUAGES } from "../i18n/languages";
 
 const FOOTER_LINKS = [
-  { label: "Game", path: "/game" },
-  { label: "Features", path: "/features" },
-  { label: "Community", path: "/community" },
-  { label: "Shop", path: "/shop" },
-  { label: "News", path: "/news" },
+  { key: "game", path: "/game" },
+  { key: "features", path: "/features" },
+  { key: "community", path: "/community" },
+  { key: "shop", path: "/shop" },
+  { key: "news", path: "/news" },
 ];
 
 const LEGAL_LINKS = [
-  { label: "Privacy", path: "/privacy" },
-  { label: "Terms", path: "/terms" },
-  { label: "Support", path: "/support" },
+  { key: "privacy", path: "/privacy" },
+  { key: "terms", path: "/terms" },
+  { key: "support", path: "/support" },
 ];
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef(null);
+
+  const current =
+    LANGUAGES.find((l) => l.code === i18n.language.split("-")[0]) ||
+    LANGUAGES[0];
+
+  useEffect(() => {
+    const onClick = (e) => {
+      if (langRef.current && !langRef.current.contains(e.target)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", onClick);
+    return () => document.removeEventListener("mousedown", onClick);
+  }, []);
+
+  const changeLanguage = (code) => {
+    i18n.changeLanguage(code);
+    setLangOpen(false);
+  };
+
   return (
     <footer className="footer">
       <div className="footer-inner">
@@ -30,7 +56,7 @@ export default function Footer() {
           <nav className="footer-links">
             {FOOTER_LINKS.map((l) => (
               <Link key={l.path} to={l.path} className="footer-link">
-                {l.label}
+                {t(`nav.${l.key}`)}
               </Link>
             ))}
           </nav>
@@ -62,30 +88,58 @@ export default function Footer() {
               </svg>
             </a>
 
-            <button className="lang-btn">
-              <span className="lang-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F4F4F4" strokeWidth="1.6">
-                  <circle cx="12" cy="12" r="10" />
-                  <ellipse cx="12" cy="12" rx="4.5" ry="10" />
-                  <path d="M2 12h20" />
-                </svg>
-              </span>{" "}
-              EN
-              <span>
-                <svg width="11" height="7" viewBox="0 0 11 7" fill="none">
-                  <path d="M1 1L5.5 5.5L10 1" stroke="#F4F4F4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </span>
-            </button>
+            <div className="lang-wrap" ref={langRef}>
+              <button
+                type="button"
+                className="lang-btn"
+                onClick={() => setLangOpen((v) => !v)}
+                aria-haspopup="listbox"
+                aria-expanded={langOpen}
+              >
+                <span className="lang-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#F4F4F4" strokeWidth="1.6">
+                    <circle cx="12" cy="12" r="10" />
+                    <ellipse cx="12" cy="12" rx="4.5" ry="10" />
+                    <path d="M2 12h20" />
+                  </svg>
+                </span>{" "}
+                {current.code.toUpperCase()}
+                <span className={`lang-arrow ${langOpen ? "lang-arrow-open" : ""}`}>
+                  <svg width="11" height="7" viewBox="0 0 11 7" fill="none">
+                    <path d="M1 1L5.5 5.5L10 1" stroke="#F4F4F4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </span>
+              </button>
+
+              {langOpen && (
+                <ul className="lang-menu lang-menu-up" role="listbox">
+                  {LANGUAGES.map((l) => (
+                    <li key={l.code}>
+                      <button
+                        type="button"
+                        role="option"
+                        aria-selected={l.code === current.code}
+                        className={`lang-option ${
+                          l.code === current.code ? "lang-option-active" : ""
+                        }`}
+                        onClick={() => changeLanguage(l.code)}
+                      >
+                        {l.label}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p className="copyright">© 2026 Football League. All rights reserved.</p>
+          <p className="copyright">{t("footer.copyright")}</p>
           <div className="legal-links">
             {LEGAL_LINKS.map((l) => (
               <Link key={l.path} to={l.path} className="legal-link">
-                {l.label}
+                {t(`footer.${l.key}`)}
               </Link>
             ))}
           </div>

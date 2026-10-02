@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "game": "Game",
+    "features": "Fitur",
+    "community": "Komunitas",
+    "shop": "Toko",
+    "news": "Berita",
+    "playNow": "Main Sekarang"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "PEMAIN NYATA. PERTANDINGAN NYATA.",
+      "line1": "SEPAK BOLA",
+      "pink": "HIDUP",
+      "rest": "DI SINI",
+      "subtitle": "GAME GLOBAL UNTUK SEMUA ORANG."
+    },
+    "stats": {
+      "s1": { "value": "100 Juta+", "label": "Unduhan" },
+      "s2": { "value": "200+", "label": "Negara" },
+      "s3": { "value": "4,7★", "label": "Rating Aplikasi" },
+      "s4": { "value": "Jutaan", "label": "Pemain" }
+    },
+    "pillars": {
+      "play": { "title": "MAIN", "subtitle": "Cepat. Lancar. Seru." },
+      "compete": { "title": "BERSAING", "subtitle": "Liga global. Hadiah nyata." },
+      "build": { "title": "BANGUN", "subtitle": "Ciptakan tim impianmu." }
+    },
+    "features": {
+      "eyebrow": "FITUR GAME",
+      "title1": "LEBIH BANYAK CARA",
+      "titlePink": "UNTUK BERMAIN",
+      "text": "Berbagai mode permainan, tim dan pemain nyata, serta pengalaman sepak bola yang terasa nyata — kapan saja, di mana saja."
+    },
+    "merch": {
+      "eyebrow": "FITUR GAME",
+      "title1": "KENAKAN",
+      "title2": "GAME-NYA",
+      "text": "Merchandise resmi Football League 2026 di Spreadshop."
+    },
+    "news": {
+      "eyebrow": "BERITA & KOMUNITAS",
+      "title1": "TETAP UPDATE",
+      "titlePink": "DI GAME",
+      "text": "Pembaruan game, event, dan cerita dari seluruh dunia.",
+      "viewAll": "Lihat Semua Berita",
+      "items": {
+        "n1": { "title": "Pembaruan Musim Panas FL2026 Hadirkan Piala Internasional" },
+        "n2": { "title": "Tips Meningkatkan Skill Kamu di FL2026" },
+        "n3": { "title": "Bergabunglah dengan Komunitas Global Kami" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. Semua hak dilindungi.",
+  "privacy": "Privasi",
+  "terms": "Ketentuan",
+  "support": "Dukungan"
+}
+}

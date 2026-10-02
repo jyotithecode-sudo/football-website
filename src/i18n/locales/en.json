@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "game": "Game",
+    "features": "Features",
+    "community": "Community",
+    "shop": "Shop",
+    "news": "News",
+    "playNow": "Play Now"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "REAL PLAYERS. REAL MATCHES.",
+      "line1": "FOOTBALL",
+      "pink": "LIVES",
+      "rest": "HERE",
+      "subtitle": "A GLOBAL GAME FOR EVERYONE."
+    },
+    "stats": {
+      "s1": { "value": "100M+", "label": "Downloads" },
+      "s2": { "value": "200+", "label": "Countries" },
+      "s3": { "value": "4.7★", "label": "App Rating" },
+      "s4": { "value": "Millions", "label": "of Players" }
+    },
+    "pillars": {
+      "play": { "title": "PLAY", "subtitle": "Fast. Fluid. Fun." },
+      "compete": { "title": "COMPETE", "subtitle": "Global leagues. Real rewards." },
+      "build": { "title": "BUILD", "subtitle": "Create your dream team." }
+    },
+    "features": {
+      "eyebrow": "GAME FEATURES",
+      "title1": "MORE WAYS",
+      "titlePink": "TO PLAY",
+      "text": "Multiple game modes, real teams and players, and a true to life football experience — anytime, anywhere."
+    },
+    "merch": {
+      "eyebrow": "GAME FEATURES",
+      "title1": "WEAR",
+      "title2": "THE GAME",
+      "text": "Official Football League 2026 merchandise on Spreadshop."
+    },
+    "news": {
+      "eyebrow": "NEWS & COMMUNITY",
+      "title1": "STAY IN",
+      "titlePink": "THE GAME",
+      "text": "Game updates, events and stories from around the world.",
+      "viewAll": "View All News",
+      "items": {
+        "n1": { "title": "FL2026 Summer Update Brings the International Cup" },
+        "n2": { "title": "Tips to Improve Your Skills in FL2026" },
+        "n3": { "title": "Join Our Global Community" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. All rights reserved.",
+  "privacy": "Privacy",
+  "terms": "Terms",
+  "support": "Support"
+}
+}

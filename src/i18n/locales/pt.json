@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Início",
+    "game": "Jogo",
+    "features": "Recursos",
+    "community": "Comunidade",
+    "shop": "Loja",
+    "news": "Notícias",
+    "playNow": "Jogar agora"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "JOGADORES REAIS. PARTIDAS REAIS.",
+      "line1": "O FUTEBOL",
+      "pink": "VIVE",
+      "rest": "AQUI",
+      "subtitle": "UM JOGO GLOBAL PARA TODOS."
+    },
+    "stats": {
+      "s1": { "value": "100M+", "label": "Downloads" },
+      "s2": { "value": "200+", "label": "Países" },
+      "s3": { "value": "4,7★", "label": "Avaliação do app" },
+      "s4": { "value": "Milhões", "label": "de jogadores" }
+    },
+    "pillars": {
+      "play": { "title": "JOGUE", "subtitle": "Rápido. Fluido. Divertido." },
+      "compete": { "title": "COMPITA", "subtitle": "Ligas globais. Recompensas reais." },
+      "build": { "title": "CONSTRUA", "subtitle": "Crie o time dos seus sonhos." }
+    },
+    "features": {
+      "eyebrow": "RECURSOS DO JOGO",
+      "title1": "MAIS MANEIRAS",
+      "titlePink": "DE JOGAR",
+      "text": "Vários modos de jogo, times e jogadores reais e uma experiência de futebol fiel à realidade, a qualquer hora, em qualquer lugar."
+    },
+    "merch": {
+      "eyebrow": "RECURSOS DO JOGO",
+      "title1": "VISTA",
+      "title2": "O JOGO",
+      "text": "Produtos oficiais do Football League 2026 na Spreadshop."
+    },
+    "news": {
+      "eyebrow": "NOTÍCIAS E COMUNIDADE",
+      "title1": "FIQUE POR DENTRO",
+      "titlePink": "DO JOGO",
+      "text": "Atualizações, eventos e histórias do mundo todo.",
+      "viewAll": "Ver todas as notícias",
+      "items": {
+        "n1": { "title": "A atualização de verão do FL2026 traz a Copa Internacional" },
+        "n2": { "title": "Dicas para melhorar suas habilidades no FL2026" },
+        "n3": { "title": "Junte-se à nossa comunidade global" }
+      }
+    }
+  },
+  "footer": {
+  "copyright": "© 2026 Football League. Todos os direitos reservados.",
+  "privacy": "Privacidade",
+  "terms": "Termos",
+  "support": "Suporte"
+}
+}
