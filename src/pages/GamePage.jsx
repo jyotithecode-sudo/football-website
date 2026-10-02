@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../GamePage.css";
+import "../Gamepage.css";
 
 export default function GamePage() {
   return (
