@@ -8,7 +8,7 @@ export default function GamePage() {
       {/* ---------- Hero ---------- */}
       <section className="game-hero">
         <img
-          src="/images/game-hero-bg.png"
+          src="/images/community-hero-bg.png"
           alt="Football match on the pitch"
           className="game-hero-bg"
         />
