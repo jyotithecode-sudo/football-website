@@ -58,6 +58,55 @@
   "terms": "Ketentuan",
   "support": "Dukungan"
 },
+"features": {
+  "heroEyebrow": "FITUR",
+  "heroTitle1": "KEDALAMAN. GAYA.",
+  "heroTitlePink": "KONTROL.",
+  "heroText": "Dibuat untuk penggemar sepak bola yang mendambakan kedalaman, gaya, dan kontrol.",
+  "match": {
+    "eyebrow": "PENGALAMAN PERTANDINGAN IMERSIF",
+    "title": "RASAKAN SETIAP",
+    "titlePink": "PERTANDINGAN.",
+    "text": "Stadion realistis dan gameplay responsif membuat setiap malam pertandingan terasa dekat dengan lapangan."
+  },
+  "cards": {
+    "stadium": { "tag": "SUASANA", "title": "SUASANA PERTANDINGAN OTENTIK", "desc": "Stadion baru, lapangan dinamis, komentar langsung dalam 16 bahasa." },
+    "controls": { "tag": "KONTROL", "title": "KONTROL INTUITIF", "desc": "Animasi mulus berbasis mocap dan reaksi kiper yang lebih baik." },
+    "tactics": { "tag": "STRATEGI", "title": "GAYA TAKTIK", "desc": "Sistem instruksi bermain yang fleksibel, dengan lebih banyak peningkatan segera hadir." }
+  },
+  "modes": {
+    "eyebrow": "BERAGAM MODE GAME",
+    "title": "MAIN",
+    "titlePink": "CARAMU.",
+    "text": "Bermain di berbagai liga, turnamen, dan tantangan.",
+    "items": {
+      "m1": { "title": "MODE KARIER", "desc": "Bangun timmu, berlatih keras, bermain cerdas, dan raih puncak." },
+      "m2": { "title": "MODE KARIER", "desc": "Bangun timmu, berlatih keras, bermain cerdas, dan raih puncak." },
+      "m3": { "title": "LIGA & PIALA", "desc": "Hadapi turnamen klub dan negara demi kejayaan." },
+      "m4": { "title": "KOMPETISI WANITA", "desc": "Liga dan turnamen inklusif yang merayakan sepak bola wanita." }
+    }
+  },
+  "events": {
+    "eyebrow": "EVENT & DESAIN MENARIK",
+    "title": "DINAMIS SETIAP HARI.",
+    "items": {
+      "e1": { "bold": "Event Tantangan Langsung.", "text": "Tantangan bertema yang rutin dengan banyak hadiah." },
+      "e2": { "bold": "Pembaruan Berkelanjutan.", "text": "Event perayaan dan pembaruan dari para penggemar membuat permainan tetap seru." },
+      "e3": { "bold": "Gaya Hari Pertandingan.", "text": "UI yang ringkas menjaga menu, event, dan permainan tetap jelas dan responsif." }
+    }
+  },
+  "database": {
+    "eyebrow": "DATABASE LUAS & FLEKSIBEL",
+    "title1": "PEMAINMU.",
+    "titlePink": "DUNIAMU.",
+    "text": "Stadion realistis dan gameplay responsif membuat setiap malam pertandingan terasa dekat dengan lapangan.",
+    "items": {
+      "d1": { "tag": "LISENSI", "title": "LISENSI RESMI", "desc": "Manchester City dan AS Monaco hadir dengan konten klub yang otentik." },
+      "d2": { "tag": "DATABASE", "title": "DATABASE LENGKAP", "desc": "35+ negara, 1.500+ tim, 40.000+ pemain — global dan inklusif." },
+      "d3": { "tag": "EDITOR", "title": "KUSTOMISASI BEBAS", "desc": "Edit pemain dan tim, perbarui jersei, dan buat liga kustom." }
+    }
+  }
+},
 "game": {
   "hero": {
     "eyebrow": "FOOTBALL LEAGUE 2026 / GAME",

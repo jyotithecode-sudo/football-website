@@ -58,6 +58,55 @@
   "terms": "Conditions",
   "support": "Assistance"
 },
+"features": {
+  "heroEyebrow": "FONCTIONNALITÉS",
+  "heroTitle1": "PROFONDEUR. STYLE.",
+  "heroTitlePink": "CONTRÔLE.",
+  "heroText": "Conçu pour les fans de football en quête de profondeur, de style et de contrôle.",
+  "match": {
+    "eyebrow": "EXPÉRIENCE DE MATCH IMMERSIVE",
+    "title": "VIVEZ CHAQUE",
+    "titlePink": "MATCH.",
+    "text": "Des stades réalistes et un gameplay réactif donnent à chaque soir de match l'impression d'être au bord du terrain."
+  },
+  "cards": {
+    "stadium": { "tag": "AMBIANCE", "title": "AMBIANCE DE MATCH AUTHENTIQUE", "desc": "Nouveaux stades, terrains dynamiques, commentaires en direct en 16 langues." },
+    "controls": { "tag": "CONTRÔLE", "title": "COMMANDES INTUITIVES", "desc": "Animations fluides issues de la capture de mouvement et meilleures réactions des gardiens." },
+    "tactics": { "tag": "STRATÉGIE", "title": "STYLE TACTIQUE", "desc": "Un système de consignes de jeu flexible, avec d'autres améliorations à venir." }
+  },
+  "modes": {
+    "eyebrow": "MODES DE JEU VARIÉS",
+    "title": "JOUEZ",
+    "titlePink": "À VOTRE FAÇON.",
+    "text": "Jouez dans plusieurs ligues, tournois et défis.",
+    "items": {
+      "m1": { "title": "MODE CARRIÈRE", "desc": "Construisez votre équipe, entraînez-vous dur, jouez malin et atteignez le sommet." },
+      "m2": { "title": "MODE CARRIÈRE", "desc": "Construisez votre équipe, entraînez-vous dur, jouez malin et atteignez le sommet." },
+      "m3": { "title": "LIGUES ET COUPES", "desc": "Affrontez les tournois de clubs et de nations pour la gloire." },
+      "m4": { "title": "COMPÉTITIONS FÉMININES", "desc": "Des ligues et tournois inclusifs qui célèbrent le football féminin." }
+    }
+  },
+  "events": {
+    "eyebrow": "ÉVÉNEMENTS ET DESIGNS ENGAGEANTS",
+    "title": "DYNAMIQUE CHAQUE JOUR.",
+    "items": {
+      "e1": { "bold": "Événements défis en direct.", "text": "Des défis thématiques et réguliers pleins de récompenses." },
+      "e2": { "bold": "Mises à jour continues.", "text": "Des événements festifs et des nouveautés portées par les fans gardent le jeu passionnant." },
+      "e3": { "bold": "Style jour de match.", "text": "Une interface épurée garde menus, événements et gameplay clairs et réactifs." }
+    }
+  },
+  "database": {
+    "eyebrow": "BASE DE DONNÉES VASTE ET FLEXIBLE",
+    "title1": "VOS JOUEURS.",
+    "titlePink": "VOTRE MONDE.",
+    "text": "Des stades réalistes et un gameplay réactif donnent à chaque soir de match l'impression d'être au bord du terrain.",
+    "items": {
+      "d1": { "tag": "LICENCES", "title": "LICENCES OFFICIELLES", "desc": "Manchester City et l'AS Monaco arrivent avec du contenu officiel des clubs." },
+      "d2": { "tag": "BASE DE DONNÉES", "title": "BASE DE DONNÉES COMPLÈTE", "desc": "Plus de 35 pays, 1 500 équipes, 40 000 joueurs : mondiale et inclusive." },
+      "d3": { "tag": "ÉDITEUR", "title": "PERSONNALISATION LIBRE", "desc": "Modifiez joueurs et équipes, mettez à jour les maillots et créez vos propres ligues." }
+    }
+  }
+},
 "game": {
   "hero": {
     "eyebrow": "FOOTBALL LEAGUE 2026 / JEU",

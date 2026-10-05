@@ -58,6 +58,55 @@
   "terms": "Términos",
   "support": "Soporte"
 },
+"features": {
+  "heroEyebrow": "CARACTERÍSTICAS",
+  "heroTitle1": "PROFUNDIDAD. ESTILO.",
+  "heroTitlePink": "CONTROL.",
+  "heroText": "Creado para los aficionados al fútbol que buscan profundidad, estilo y control.",
+  "match": {
+    "eyebrow": "EXPERIENCIA DE PARTIDO INMERSIVA",
+    "title": "VIVE CADA",
+    "titlePink": "PARTIDO.",
+    "text": "Estadios realistas y una jugabilidad receptiva hacen que cada noche de partido se sienta cerca del campo."
+  },
+  "cards": {
+    "stadium": { "tag": "AMBIENTE", "title": "AMBIENTE DE PARTIDO AUTÉNTICO", "desc": "Nuevos estadios, campos dinámicos y comentarios en vivo en 16 idiomas." },
+    "controls": { "tag": "CONTROL", "title": "CONTROLES INTUITIVOS", "desc": "Animaciones fluidas con captura de movimiento y mejores reacciones de los porteros." },
+    "tactics": { "tag": "ESTRATEGIA", "title": "ESTILO TÁCTICO", "desc": "Un sistema flexible de instrucciones de juego, con más mejoras en camino." }
+  },
+  "modes": {
+    "eyebrow": "DIVERSOS MODOS DE JUEGO",
+    "title": "JUEGA A",
+    "titlePink": "TU MANERA.",
+    "text": "Juega en múltiples ligas, torneos y desafíos.",
+    "items": {
+      "m1": { "title": "MODO CARRERA", "desc": "Construye tu equipo, entrena duro, juega con inteligencia y llega a la cima." },
+      "m2": { "title": "MODO CARRERA", "desc": "Construye tu equipo, entrena duro, juega con inteligencia y llega a la cima." },
+      "m3": { "title": "LIGAS Y COPAS", "desc": "Enfréntate en torneos de clubes y selecciones por la gloria." },
+      "m4": { "title": "COMPETICIONES FEMENINAS", "desc": "Ligas y torneos inclusivos que celebran el fútbol femenino." }
+    }
+  },
+  "events": {
+    "eyebrow": "EVENTOS Y DISEÑOS ATRACTIVOS",
+    "title": "DINÁMICO CADA DÍA.",
+    "items": {
+      "e1": { "bold": "Eventos de desafío en vivo.", "text": "Desafíos temáticos y regulares llenos de recompensas." },
+      "e2": { "bold": "Actualizaciones continuas.", "text": "Eventos festivos y novedades impulsadas por los fans mantienen el juego emocionante." },
+      "e3": { "bold": "Estilo día de partido.", "text": "Una interfaz optimizada mantiene menús, eventos y partidos claros y receptivos." }
+    }
+  },
+  "database": {
+    "eyebrow": "BASE DE DATOS AMPLIA Y FLEXIBLE",
+    "title1": "TUS JUGADORES.",
+    "titlePink": "TU MUNDO.",
+    "text": "Estadios realistas y una jugabilidad receptiva hacen que cada noche de partido se sienta cerca del campo.",
+    "items": {
+      "d1": { "tag": "LICENCIAS", "title": "LICENCIAS OFICIALES", "desc": "Manchester City y AS Mónaco llegan con contenido auténtico de los clubes." },
+      "d2": { "tag": "BASE DE DATOS", "title": "BASE DE DATOS COMPLETA", "desc": "Más de 35 países, 1500 equipos y 40 000 jugadores: global e inclusiva." },
+      "d3": { "tag": "EDITOR", "title": "PERSONALIZACIÓN LIBRE", "desc": "Edita jugadores y equipos, actualiza camisetas y crea ligas personalizadas." }
+    }
+  }
+},
 "game": {
   "hero": {
     "eyebrow": "FOOTBALL LEAGUE 2026 / JUEGO",

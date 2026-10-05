@@ -58,54 +58,53 @@
   "terms": "Terms",
   "support": "Support"
 },
-"game": {
-  "hero": {
-    "eyebrow": "FOOTBALL LEAGUE 2026 / GAME",
-    "title1": "PLAY FOOTBALL.",
+"features": {
+  "heroEyebrow": "FEATURES",
+  "heroTitle1": "DEPTH. STYLE.",
+  "heroTitlePink": "CONTROL.",
+  "heroText": "Built for football fans who crave depth, style and control.",
+  "match": {
+    "eyebrow": "IMMERSIVE MATCH EXPERIENCE",
+    "title": "FEEL EVERY",
+    "titlePink": "MATCH.",
+    "text": "Realistic stadiums and responsive gameplay make every game night feel close to the pitch."
+  },
+  "cards": {
+    "stadium": { "tag": "ATMOSPHERE", "title": "AUTHENTIC MATCH ATMOSPHERE", "desc": "New stadiums, dynamic pitches, live commentary in 16 languages." },
+    "controls": { "tag": "CONTROL", "title": "INTUITIVE CONTROLS", "desc": "Smooth, mocap-based animations and improved goalkeeper reactions." },
+    "tactics": { "tag": "STRATEGY", "title": "TACTICS STYLE", "desc": "A flexible playing-instruction system, with more upgrades coming." }
+  },
+  "modes": {
+    "eyebrow": "DIVERSE GAME MODES",
+    "title": "PLAY",
     "titlePink": "YOUR WAY.",
-    "text": "Realistic matches. Deep modes. Your global Football League experience.",
-    "explore": "Explore all features"
-  },
-  "gameplay": {
-    "eyebrow": "GAMEPLAY FEATURES",
-    "title": "EVERY MOVE",
-    "titlePink": "MATTERS.",
-    "text": "Responsive controls. Tactical depth. A match engine built for the action.",
+    "text": "Play across multiple leagues, tournaments and challenges.",
     "items": {
-      "g1": { "title": "DYNAMIC MATCH ENGINE", "desc": "Smart AI and fluid animations bring every match to life." },
-      "g2": { "title": "YOUR TACTICAL STYLE", "desc": "Choose playing instructions that suit your strategy." },
-      "g3": { "title": "STADIUM ATMOSPHERE", "desc": "Dynamic pitches and commentary in 16 languages bring you closer to the match." }
+      "m1": { "title": "CAREER MODE", "desc": "Build your team, train hard, play smart, and rise to the top." },
+      "m2": { "title": "CAREER MODE", "desc": "Build your team, train hard, play smart, and rise to the top." },
+      "m3": { "title": "LEAGUE & CUP GAMES", "desc": "Take on club and national tournaments for glory." },
+      "m4": { "title": "WOMEN’S COMPETITIONS", "desc": "Inclusive leagues and tournaments celebrating women’s football." }
     }
   },
-  "ways": {
-    "eyebrow": "GAME MODES",
-    "title": "MORE WAYS",
-    "titlePink": "TO PLAY.",
-    "text": "Build a career, chase a cup, or sharpen your skills.",
+  "events": {
+    "eyebrow": "ENGAGING EVENTS & DESIGNS",
+    "title": "DYNAMIC EVERY DAY.",
     "items": {
-      "w1": { "title": "CAREER MODE", "desc": "Build your team, train hard, play smart, and rise to the top." },
-      "w2": { "title": "LEAGUE & CUP GAMES", "desc": "Take on club and national tournaments for glory." },
-      "w3": { "title": "WOMEN’S COMPETITIONS", "desc": "Inclusive leagues and tournaments celebrating women’s football." },
-      "w4": { "title": "FRIENDLIES & DRILLS", "desc": "Practice skills and master free kicks, penalties and set pieces." }
+      "e1": { "bold": "Live Challenge Events.", "text": "Themed, regular challenges packed with rewards." },
+      "e2": { "bold": "Continuous Updates.", "text": "Festive events and fan-driven updates keep gameplay exciting." },
+      "e3": { "bold": "Game Day Style.", "text": "Streamlined UI keeps menus, events and gameplay clear and responsive." }
     }
   },
-  "shots": {
-    "eyebrow": "FROM INSIDE THE GAME",
-    "title": "SEE THE",
-    "titlePink": "ACTION.",
-    "text": "Match moments, squad tactics, and the road to your next trophy.",
+  "database": {
+    "eyebrow": "EXTENSIVE & FLEXIBLE DATABASE",
+    "title1": "YOUR PLAYERS.",
+    "titlePink": "YOUR WORLD.",
+    "text": "Realistic stadiums and responsive gameplay make every game night feel close to the pitch.",
     "items": {
-      "s1": "MATCH-DAY ATMOSPHERE",
-      "s2": "INTUITIVE CONTROLS",
-      "s3": "TACTICS STYLE"
+      "d1": { "tag": "LICENSES", "title": "OFFICIAL LICENSES", "desc": "Manchester City and AS Monaco arrive with authentic club content." },
+      "d2": { "tag": "DATABASE", "title": "COMPREHENSIVE DATABASE", "desc": "35+ countries, 1,500+ teams, 40,000+ players — global and inclusive." },
+      "d3": { "tag": "EDITOR", "title": "FREE CUSTOMIZATION", "desc": "Edit players and teams, update jerseys, and create custom leagues." }
     }
-  },
-  "download": {
-    "eyebrow": "FOOTBALL LEAGUE 2026",
-    "title1": "YOUR NEXT MATCH",
-    "titlePink": "STARTS HERE.",
-    "text": "Free to play. Available on Android and iOS.",
-    "note": "Contains ads and in-app purchases. Content and licenses may vary by region."
   }
 },
 "game": {
