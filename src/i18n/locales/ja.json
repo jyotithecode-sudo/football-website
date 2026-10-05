@@ -107,5 +107,43 @@
     "text": "基本プレイ無料。AndroidとiOSで利用可能。",
     "note": "広告とアプリ内課金を含みます。コンテンツとライセンスは地域により異なる場合があります。"
   }
+},
+"community": {
+  "joinDiscord": "Discord に参加",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / コミュニティ",
+    "title1": "ひとつのゲーム。",
+    "titlePink": "世界中の情熱。",
+    "text": "ハイライト。ライバル。ライブチャット。あなたのグローバルな Football League コミュニティ。",
+    "explore": "すべての機能を見る"
+  },
+  "social": {
+    "eyebrow": "つながり続けよう",
+    "title": "あなたの",
+    "titlePink": "ホームエンドを見つけよう。",
+    "text": "アクションをフォローし、情熱を共有し、会話を続けよう。",
+    "items": {
+      "discord": { "desc": "チームを築き、懸命にトレーニングし、賢く戦って頂点を目指そう。", "btn": "Discord に参加" },
+      "facebook": { "desc": "チームを築き、懸命にトレーニングし、賢く戦って頂点を目指そう。", "btn": "Facebook をフォロー" },
+      "instagram": { "desc": "ゴール集、キット情報、舞台裏のアートをお届け。", "btn": "Instagram をフォロー" }
+    }
+  },
+  "action": {
+    "eyebrow": "ゲームの中から",
+    "title": "アクションを",
+    "titlePink": "見よう。",
+    "text": "試合のハイライト、チーム戦術、そして次のトロフィーへの道のり。",
+    "items": {
+      "a1": { "title": "試合ハイライト", "link": "ハイライトを見る" },
+      "a2": { "title": "チーム編成", "link": "Discord で戦術を語ろう" },
+      "a3": { "title": "限定イベント", "link": "イベント告知をフォロー" }
+    }
+  },
+  "cta": {
+    "eyebrow": "あなたのグローバルなサッカーコミュニティ",
+    "title1": "同じゲーム。",
+    "titlePink": "もっと多くのつながり。",
+    "text": "Football League のプレイヤーと会話に参加しよう。"
+  }
 }
 }

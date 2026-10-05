@@ -107,5 +107,43 @@
     "text": "Gratis para jugar. Disponible en Android e iOS.",
     "note": "Contiene anuncios y compras dentro de la aplicación. El contenido y las licencias pueden variar según la región."
   }
+},
+"community": {
+  "joinDiscord": "Únete a Discord",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / COMUNIDAD",
+    "title1": "UN JUEGO.",
+    "titlePink": "PASIÓN GLOBAL.",
+    "text": "Resúmenes. Rivales. Chats en vivo. Tu comunidad global de Football League.",
+    "explore": "Explorar todas las características"
+  },
+  "social": {
+    "eyebrow": "MANTENTE CONECTADO",
+    "title": "ENCUENTRA TU",
+    "titlePink": "GRADA.",
+    "text": "Sigue la acción. Comparte tu pasión. Que la conversación no pare.",
+    "items": {
+      "discord": { "desc": "Construye tu equipo, entrena duro, juega con inteligencia y llega a la cima.", "btn": "Únete a Discord" },
+      "facebook": { "desc": "Construye tu equipo, entrena duro, juega con inteligencia y llega a la cima.", "btn": "Síguenos en Facebook" },
+      "instagram": { "desc": "Montajes de goles, nuevas equipaciones y arte entre bastidores.", "btn": "Síguenos en Instagram" }
+    }
+  },
+  "action": {
+    "eyebrow": "DESDE DENTRO DEL JUEGO",
+    "title": "MIRA",
+    "titlePink": "LA ACCIÓN.",
+    "text": "Momentos de partido, tácticas de equipo y el camino hacia tu próximo trofeo.",
+    "items": {
+      "a1": { "title": "MEJORES JUGADAS", "link": "Ver las mejores jugadas" },
+      "a2": { "title": "ALINEACIONES", "link": "Habla de tácticas en Discord" },
+      "a3": { "title": "EVENTOS EXCLUSIVOS", "link": "Sigue los anuncios de eventos" }
+    }
+  },
+  "cta": {
+    "eyebrow": "TU COMUNIDAD GLOBAL DE FÚTBOL",
+    "title1": "EL MISMO JUEGO.",
+    "titlePink": "MÁS CONEXIONES.",
+    "text": "Únete a la conversación con jugadores de Football League."
+  }
 }
 }

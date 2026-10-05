@@ -107,5 +107,43 @@
     "text": "Gratuit. Disponible sur Android et iOS.",
     "note": "Contient des publicités et des achats intégrés. Le contenu et les licences peuvent varier selon la région."
   }
+},
+"community": {
+  "joinDiscord": "Rejoindre le Discord",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / COMMUNAUTÉ",
+    "title1": "UN JEU.",
+    "titlePink": "UNE PASSION MONDIALE.",
+    "text": "Temps forts. Rivaux. Discussions en direct. Votre communauté Football League mondiale.",
+    "explore": "Découvrir toutes les fonctionnalités"
+  },
+  "social": {
+    "eyebrow": "RESTEZ CONNECTÉ",
+    "title": "TROUVEZ VOTRE",
+    "titlePink": "TRIBUNE.",
+    "text": "Suivez l'action. Partagez votre passion. Gardez la conversation vivante.",
+    "items": {
+      "discord": { "desc": "Construisez votre équipe, entraînez-vous dur, jouez malin et atteignez le sommet.", "btn": "Rejoindre le Discord" },
+      "facebook": { "desc": "Construisez votre équipe, entraînez-vous dur, jouez malin et atteignez le sommet.", "btn": "Suivre sur Facebook" },
+      "instagram": { "desc": "Montages de buts, nouveaux maillots et coulisses artistiques.", "btn": "Suivre sur Instagram" }
+    }
+  },
+  "action": {
+    "eyebrow": "AU CŒUR DU JEU",
+    "title": "VIVEZ",
+    "titlePink": "L'ACTION.",
+    "text": "Moments de match, tactiques d'équipe et chemin vers votre prochain trophée.",
+    "items": {
+      "a1": { "title": "TEMPS FORTS DES MATCHS", "link": "Voir les temps forts" },
+      "a2": { "title": "COMPOSITIONS D'ÉQUIPE", "link": "Parlez tactique sur Discord" },
+      "a3": { "title": "ÉVÉNEMENTS EXCLUSIFS", "link": "Suivez les annonces d'événements" }
+    }
+  },
+  "cta": {
+    "eyebrow": "VOTRE COMMUNAUTÉ MONDIALE DE FOOTBALL",
+    "title1": "LE MÊME JEU.",
+    "titlePink": "PLUS DE LIENS.",
+    "text": "Rejoignez la conversation avec les joueurs de Football League."
+  }
 }
 }

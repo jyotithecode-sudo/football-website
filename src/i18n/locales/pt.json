@@ -107,5 +107,43 @@
     "text": "Grátis para jogar. Disponível para Android e iOS.",
     "note": "Contém anúncios e compras no aplicativo. O conteúdo e as licenças podem variar conforme a região."
   }
+},
+"community": {
+  "joinDiscord": "Entrar no Discord",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / COMUNIDADE",
+    "title1": "UM JOGO.",
+    "titlePink": "PAIXÃO GLOBAL.",
+    "text": "Melhores momentos. Rivais. Chats ao vivo. Sua comunidade global de Football League.",
+    "explore": "Explorar todos os recursos"
+  },
+  "social": {
+    "eyebrow": "FIQUE CONECTADO",
+    "title": "ENCONTRE SUA",
+    "titlePink": "ARQUIBANCADA.",
+    "text": "Acompanhe a ação. Compartilhe sua paixão. Mantenha a conversa rolando.",
+    "items": {
+      "discord": { "desc": "Monte seu time, treine duro, jogue com inteligência e chegue ao topo.", "btn": "Entrar no Discord" },
+      "facebook": { "desc": "Monte seu time, treine duro, jogue com inteligência e chegue ao topo.", "btn": "Seguir no Facebook" },
+      "instagram": { "desc": "Montagens de gols, lançamentos de uniformes e arte dos bastidores.", "btn": "Seguir no Instagram" }
+    }
+  },
+  "action": {
+    "eyebrow": "POR DENTRO DO JOGO",
+    "title": "VEJA",
+    "titlePink": "A AÇÃO.",
+    "text": "Momentos de partida, táticas do elenco e o caminho até o seu próximo troféu.",
+    "items": {
+      "a1": { "title": "MELHORES MOMENTOS", "link": "Ver os melhores momentos" },
+      "a2": { "title": "MONTAGEM DE TIMES", "link": "Fale de táticas no Discord" },
+      "a3": { "title": "EVENTOS EXCLUSIVOS", "link": "Acompanhe os anúncios de eventos" }
+    }
+  },
+  "cta": {
+    "eyebrow": "SUA COMUNIDADE GLOBAL DE FUTEBOL",
+    "title1": "O MESMO JOGO.",
+    "titlePink": "MAIS CONEXÕES.",
+    "text": "Participe da conversa com jogadores de Football League."
+  }
 }
 }

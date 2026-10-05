@@ -107,5 +107,43 @@
     "text": "Gratis dimainkan. Tersedia di Android dan iOS.",
     "note": "Berisi iklan dan pembelian dalam aplikasi. Konten dan lisensi dapat berbeda di setiap wilayah."
   }
+},
+"community": {
+  "joinDiscord": "Gabung Discord",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / KOMUNITAS",
+    "title1": "SATU GAME.",
+    "titlePink": "GAIRAH GLOBAL.",
+    "text": "Highlight. Rival. Obrolan langsung. Komunitas Football League globalmu.",
+    "explore": "Jelajahi semua fitur"
+  },
+  "social": {
+    "eyebrow": "TETAP TERHUBUNG",
+    "title": "TEMUKAN",
+    "titlePink": "TRIBUNMU.",
+    "text": "Ikuti aksinya. Bagikan semangatmu. Jaga percakapan tetap berjalan.",
+    "items": {
+      "discord": { "desc": "Bangun timmu, berlatih keras, bermain cerdas, dan raih puncak.", "btn": "Gabung Discord" },
+      "facebook": { "desc": "Bangun timmu, berlatih keras, bermain cerdas, dan raih puncak.", "btn": "Ikuti di Facebook" },
+      "instagram": { "desc": "Kompilasi gol, rilis kit baru, dan seni di balik layar.", "btn": "Ikuti di Instagram" }
+    }
+  },
+  "action": {
+    "eyebrow": "DARI DALAM GAME",
+    "title": "LIHAT",
+    "titlePink": "AKSINYA.",
+    "text": "Momen pertandingan, taktik skuad, dan jalan menuju trofi berikutnya.",
+    "items": {
+      "a1": { "title": "HIGHLIGHT PERTANDINGAN", "link": "Lihat highlight" },
+      "a2": { "title": "RACIKAN TIM", "link": "Bahas taktik di Discord" },
+      "a3": { "title": "EVENT EKSKLUSIF", "link": "Ikuti pengumuman event" }
+    }
+  },
+  "cta": {
+    "eyebrow": "KOMUNITAS SEPAK BOLA GLOBALMU",
+    "title1": "GAME YANG SAMA.",
+    "titlePink": "LEBIH BANYAK KONEKSI.",
+    "text": "Bergabunglah dalam percakapan bersama pemain Football League."
+  }
 }
 }

@@ -57,5 +57,93 @@
   "privacy": "隐私",
   "terms": "条款",
   "support": "支持"
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / 游戏",
+    "title1": "畅享足球。",
+    "titlePink": "随心而玩。",
+    "text": "逼真的比赛。丰富的模式。属于你的全球 Football League 体验。",
+    "explore": "探索全部特色"
+  },
+  "gameplay": {
+    "eyebrow": "玩法特色",
+    "title": "每一步",
+    "titlePink": "都重要。",
+    "text": "灵敏的操控。战术的深度。为精彩对决打造的比赛引擎。",
+    "items": {
+      "g1": { "title": "动态比赛引擎", "desc": "智能 AI 与流畅动画让每场比赛都栩栩如生。" },
+      "g2": { "title": "你的战术风格", "desc": "选择适合你策略的比赛指令。" },
+      "g3": { "title": "球场氛围", "desc": "动态球场和 16 种语言的解说，让你更贴近比赛。" }
+    }
+  },
+  "ways": {
+    "eyebrow": "游戏模式",
+    "title": "更多",
+    "titlePink": "玩法。",
+    "text": "打造生涯、问鼎杯赛，或磨练你的技巧。",
+    "items": {
+      "w1": { "title": "生涯模式", "desc": "组建你的球队，刻苦训练，聪明比赛，登上巅峰。" },
+      "w2": { "title": "联赛与杯赛", "desc": "参加俱乐部和国家级赛事，争夺荣耀。" },
+      "w3": { "title": "女子赛事", "desc": "包容的联赛和赛事，致敬女子足球。" },
+      "w4": { "title": "友谊赛与训练", "desc": "练习技巧，精通任意球、点球和定位球。" }
+    }
+  },
+  "shots": {
+    "eyebrow": "游戏内精彩瞬间",
+    "title": "感受",
+    "titlePink": "精彩。",
+    "text": "比赛瞬间、球队战术，以及通往下一座奖杯的道路。",
+    "items": {
+      "s1": "比赛日氛围",
+      "s2": "直观操控",
+      "s3": "战术风格"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "你的下一场比赛",
+    "titlePink": "从这里开始。",
+    "text": "免费游玩。支持 Android 和 iOS。",
+    "note": "含广告和应用内购买。内容和授权可能因地区而异。"
+  }
+},
+"community": {
+  "joinDiscord": "加入 Discord",
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / 社区",
+    "title1": "同一款游戏。",
+    "titlePink": "全球的热情。",
+    "text": "精彩集锦。对手较量。实时聊天。你的全球 Football League 社区。",
+    "explore": "探索全部特色"
+  },
+  "social": {
+    "eyebrow": "保持联系",
+    "title": "找到你的",
+    "titlePink": "主场看台。",
+    "text": "关注精彩动态，分享你的热情，让交流不停歇。",
+    "items": {
+      "discord": { "desc": "组建你的球队，刻苦训练，聪明比赛，登上巅峰。", "btn": "加入 Discord" },
+      "facebook": { "desc": "组建你的球队，刻苦训练，聪明比赛，登上巅峰。", "btn": "关注 Facebook" },
+      "instagram": { "desc": "进球集锦、球衣上新和幕后美术。", "btn": "关注 Instagram" }
+    }
+  },
+  "action": {
+    "eyebrow": "游戏内精彩瞬间",
+    "title": "感受",
+    "titlePink": "精彩。",
+    "text": "比赛瞬间、球队战术，以及通往下一座奖杯的道路。",
+    "items": {
+      "a1": { "title": "比赛集锦", "link": "查看集锦" },
+      "a2": { "title": "球队阵容", "link": "在 Discord 上讨论战术" },
+      "a3": { "title": "专属活动", "link": "关注活动公告" }
+    }
+  },
+  "cta": {
+    "eyebrow": "你的全球足球社区",
+    "title1": "同一款游戏。",
+    "titlePink": "更多连接。",
+    "text": "与 Football League 玩家一起交流。"
+  }
 }
 }
