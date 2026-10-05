@@ -5,7 +5,9 @@
   background: var(--dark-bg, #02060b);
   box-sizing: border-box;
 }
-
+a.legal-link {
+    color: white;
+}
 /* Content sirf 1220 me */
 .legal-container {
   width: 100%;
