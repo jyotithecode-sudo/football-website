@@ -14,8 +14,8 @@ const EVENTS = ["e1", "e2", "e3"];
 
 const DATABASE = [
   { image: "/images/database-1.png", key: "d1" },
-  { image: "/images/database-2.png", key: "d2" },
-  { image: "/images/database-3.png", key: "d3" },
+  { image: "/images/database-1.png", key: "d2" },
+  { image: "/images/database-1.png", key: "d3" },
 ];
 
 export default function FeaturesPage() {
