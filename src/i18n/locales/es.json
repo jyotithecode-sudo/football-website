@@ -57,5 +57,55 @@
   "privacy": "Privacidad",
   "terms": "Términos",
   "support": "Soporte"
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / JUEGO",
+    "title1": "JUEGA AL FÚTBOL.",
+    "titlePink": "A TU MANERA.",
+    "text": "Partidos realistas. Modos profundos. Tu experiencia global de Football League.",
+    "explore": "Explorar todas las características"
+  },
+  "gameplay": {
+    "eyebrow": "CARACTERÍSTICAS DE JUGABILIDAD",
+    "title": "CADA MOVIMIENTO",
+    "titlePink": "IMPORTA.",
+    "text": "Controles receptivos. Profundidad táctica. Un motor de partidos creado para la acción.",
+    "items": {
+      "g1": { "title": "MOTOR DE PARTIDO DINÁMICO", "desc": "Una IA inteligente y animaciones fluidas dan vida a cada partido." },
+      "g2": { "title": "TU ESTILO TÁCTICO", "desc": "Elige instrucciones de juego que se adapten a tu estrategia." },
+      "g3": { "title": "AMBIENTE DE ESTADIO", "desc": "Campos dinámicos y comentarios en 16 idiomas te acercan al partido." }
+    }
+  },
+  "ways": {
+    "eyebrow": "MODOS DE JUEGO",
+    "title": "MÁS FORMAS",
+    "titlePink": "DE JUGAR.",
+    "text": "Construye una carrera, persigue una copa o mejora tus habilidades.",
+    "items": {
+      "w1": { "title": "MODO CARRERA", "desc": "Construye tu equipo, entrena duro, juega con inteligencia y llega a la cima." },
+      "w2": { "title": "LIGAS Y COPAS", "desc": "Enfréntate en torneos de clubes y selecciones por la gloria." },
+      "w3": { "title": "COMPETICIONES FEMENINAS", "desc": "Ligas y torneos inclusivos que celebran el fútbol femenino." },
+      "w4": { "title": "AMISTOSOS Y ENTRENAMIENTOS", "desc": "Practica habilidades y domina tiros libres, penaltis y jugadas a balón parado." }
+    }
+  },
+  "shots": {
+    "eyebrow": "DESDE DENTRO DEL JUEGO",
+    "title": "MIRA",
+    "titlePink": "LA ACCIÓN.",
+    "text": "Momentos de partido, tácticas de equipo y el camino hacia tu próximo trofeo.",
+    "items": {
+      "s1": "AMBIENTE DE DÍA DE PARTIDO",
+      "s2": "CONTROLES INTUITIVOS",
+      "s3": "ESTILO TÁCTICO"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "TU PRÓXIMO PARTIDO",
+    "titlePink": "EMPIEZA AQUÍ.",
+    "text": "Gratis para jugar. Disponible en Android e iOS.",
+    "note": "Contiene anuncios y compras dentro de la aplicación. El contenido y las licencias pueden variar según la región."
+  }
 }
 }

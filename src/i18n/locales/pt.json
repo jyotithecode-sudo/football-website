@@ -57,5 +57,55 @@
   "privacy": "Privacidade",
   "terms": "Termos",
   "support": "Suporte"
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / JOGO",
+    "title1": "JOGUE FUTEBOL.",
+    "titlePink": "DO SEU JEITO.",
+    "text": "Partidas realistas. Modos profundos. Sua experiência global de Football League.",
+    "explore": "Explorar todos os recursos"
+  },
+  "gameplay": {
+    "eyebrow": "RECURSOS DE JOGABILIDADE",
+    "title": "CADA MOVIMENTO",
+    "titlePink": "IMPORTA.",
+    "text": "Controles responsivos. Profundidade tática. Um motor de partidas feito para a ação.",
+    "items": {
+      "g1": { "title": "MOTOR DE PARTIDA DINÂMICO", "desc": "IA inteligente e animações fluidas dão vida a cada partida." },
+      "g2": { "title": "SEU ESTILO TÁTICO", "desc": "Escolha instruções de jogo que combinam com sua estratégia." },
+      "g3": { "title": "ATMOSFERA DE ESTÁDIO", "desc": "Gramados dinâmicos e narração em 16 idiomas aproximam você da partida." }
+    }
+  },
+  "ways": {
+    "eyebrow": "MODOS DE JOGO",
+    "title": "MAIS MANEIRAS",
+    "titlePink": "DE JOGAR.",
+    "text": "Construa uma carreira, dispute uma copa ou aprimore suas habilidades.",
+    "items": {
+      "w1": { "title": "MODO CARREIRA", "desc": "Monte seu time, treine duro, jogue com inteligência e chegue ao topo." },
+      "w2": { "title": "LIGAS E COPAS", "desc": "Dispute torneios de clubes e seleções pela glória." },
+      "w3": { "title": "COMPETIÇÕES FEMININAS", "desc": "Ligas e torneios inclusivos que celebram o futebol feminino." },
+      "w4": { "title": "AMISTOSOS E TREINOS", "desc": "Pratique habilidades e domine faltas, pênaltis e bolas paradas." }
+    }
+  },
+  "shots": {
+    "eyebrow": "POR DENTRO DO JOGO",
+    "title": "VEJA",
+    "titlePink": "A AÇÃO.",
+    "text": "Momentos de partida, táticas do elenco e o caminho até o seu próximo troféu.",
+    "items": {
+      "s1": "ATMOSFERA DO DIA DE JOGO",
+      "s2": "CONTROLES INTUITIVOS",
+      "s3": "ESTILO TÁTICO"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "SUA PRÓXIMA PARTIDA",
+    "titlePink": "COMEÇA AQUI.",
+    "text": "Grátis para jogar. Disponível para Android e iOS.",
+    "note": "Contém anúncios e compras no aplicativo. O conteúdo e as licenças podem variar conforme a região."
+  }
 }
 }

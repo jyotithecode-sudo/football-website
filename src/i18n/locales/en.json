@@ -57,5 +57,105 @@
   "privacy": "Privacy",
   "terms": "Terms",
   "support": "Support"
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / GAME",
+    "title1": "PLAY FOOTBALL.",
+    "titlePink": "YOUR WAY.",
+    "text": "Realistic matches. Deep modes. Your global Football League experience.",
+    "explore": "Explore all features"
+  },
+  "gameplay": {
+    "eyebrow": "GAMEPLAY FEATURES",
+    "title": "EVERY MOVE",
+    "titlePink": "MATTERS.",
+    "text": "Responsive controls. Tactical depth. A match engine built for the action.",
+    "items": {
+      "g1": { "title": "DYNAMIC MATCH ENGINE", "desc": "Smart AI and fluid animations bring every match to life." },
+      "g2": { "title": "YOUR TACTICAL STYLE", "desc": "Choose playing instructions that suit your strategy." },
+      "g3": { "title": "STADIUM ATMOSPHERE", "desc": "Dynamic pitches and commentary in 16 languages bring you closer to the match." }
+    }
+  },
+  "ways": {
+    "eyebrow": "GAME MODES",
+    "title": "MORE WAYS",
+    "titlePink": "TO PLAY.",
+    "text": "Build a career, chase a cup, or sharpen your skills.",
+    "items": {
+      "w1": { "title": "CAREER MODE", "desc": "Build your team, train hard, play smart, and rise to the top." },
+      "w2": { "title": "LEAGUE & CUP GAMES", "desc": "Take on club and national tournaments for glory." },
+      "w3": { "title": "WOMEN’S COMPETITIONS", "desc": "Inclusive leagues and tournaments celebrating women’s football." },
+      "w4": { "title": "FRIENDLIES & DRILLS", "desc": "Practice skills and master free kicks, penalties and set pieces." }
+    }
+  },
+  "shots": {
+    "eyebrow": "FROM INSIDE THE GAME",
+    "title": "SEE THE",
+    "titlePink": "ACTION.",
+    "text": "Match moments, squad tactics, and the road to your next trophy.",
+    "items": {
+      "s1": "MATCH-DAY ATMOSPHERE",
+      "s2": "INTUITIVE CONTROLS",
+      "s3": "TACTICS STYLE"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "YOUR NEXT MATCH",
+    "titlePink": "STARTS HERE.",
+    "text": "Free to play. Available on Android and iOS.",
+    "note": "Contains ads and in-app purchases. Content and licenses may vary by region."
+  }
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / 游戏",
+    "title1": "畅享足球。",
+    "titlePink": "随心而玩。",
+    "text": "逼真的比赛。丰富的模式。属于你的全球 Football League 体验。",
+    "explore": "探索全部特色"
+  },
+  "gameplay": {
+    "eyebrow": "玩法特色",
+    "title": "每一步",
+    "titlePink": "都重要。",
+    "text": "灵敏的操控。战术的深度。为精彩对决打造的比赛引擎。",
+    "items": {
+      "g1": { "title": "动态比赛引擎", "desc": "智能 AI 与流畅动画让每场比赛都栩栩如生。" },
+      "g2": { "title": "你的战术风格", "desc": "选择适合你策略的比赛指令。" },
+      "g3": { "title": "球场氛围", "desc": "动态球场和 16 种语言的解说，让你更贴近比赛。" }
+    }
+  },
+  "ways": {
+    "eyebrow": "游戏模式",
+    "title": "更多",
+    "titlePink": "玩法。",
+    "text": "打造生涯、问鼎杯赛，或磨练你的技巧。",
+    "items": {
+      "w1": { "title": "生涯模式", "desc": "组建你的球队，刻苦训练，聪明比赛，登上巅峰。" },
+      "w2": { "title": "联赛与杯赛", "desc": "参加俱乐部和国家级赛事，争夺荣耀。" },
+      "w3": { "title": "女子赛事", "desc": "包容的联赛和赛事，致敬女子足球。" },
+      "w4": { "title": "友谊赛与训练", "desc": "练习技巧，精通任意球、点球和定位球。" }
+    }
+  },
+  "shots": {
+    "eyebrow": "游戏内精彩瞬间",
+    "title": "感受",
+    "titlePink": "精彩。",
+    "text": "比赛瞬间、球队战术，以及通往下一座奖杯的道路。",
+    "items": {
+      "s1": "比赛日氛围",
+      "s2": "直观操控",
+      "s3": "战术风格"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "你的下一场比赛",
+    "titlePink": "从这里开始。",
+    "text": "免费游玩。支持 Android 和 iOS。",
+    "note": "含广告和应用内购买。内容和授权可能因地区而异。"
+  }
 }
 }

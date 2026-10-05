@@ -57,5 +57,55 @@
   "privacy": "Privasi",
   "terms": "Ketentuan",
   "support": "Dukungan"
+},
+"game": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / GAME",
+    "title1": "MAINKAN SEPAK BOLA.",
+    "titlePink": "CARAMU.",
+    "text": "Pertandingan realistis. Mode mendalam. Pengalaman Football League globalmu.",
+    "explore": "Jelajahi semua fitur"
+  },
+  "gameplay": {
+    "eyebrow": "FITUR GAMEPLAY",
+    "title": "SETIAP GERAKAN",
+    "titlePink": "BERARTI.",
+    "text": "Kontrol responsif. Kedalaman taktik. Mesin pertandingan yang dibuat untuk aksi.",
+    "items": {
+      "g1": { "title": "MESIN PERTANDINGAN DINAMIS", "desc": "AI cerdas dan animasi mulus menghidupkan setiap pertandingan." },
+      "g2": { "title": "GAYA TAKTIKMU", "desc": "Pilih instruksi bermain yang sesuai dengan strategimu." },
+      "g3": { "title": "SUASANA STADION", "desc": "Lapangan dinamis dan komentar dalam 16 bahasa membuatmu lebih dekat dengan pertandingan." }
+    }
+  },
+  "ways": {
+    "eyebrow": "MODE GAME",
+    "title": "LEBIH BANYAK CARA",
+    "titlePink": "UNTUK BERMAIN.",
+    "text": "Bangun karier, kejar piala, atau asah kemampuanmu.",
+    "items": {
+      "w1": { "title": "MODE KARIER", "desc": "Bangun timmu, berlatih keras, bermain cerdas, dan raih puncak." },
+      "w2": { "title": "LIGA & PIALA", "desc": "Hadapi turnamen klub dan negara demi kejayaan." },
+      "w3": { "title": "KOMPETISI WANITA", "desc": "Liga dan turnamen inklusif yang merayakan sepak bola wanita." },
+      "w4": { "title": "LAGA PERSAHABATAN & LATIHAN", "desc": "Asah kemampuan dan kuasai tendangan bebas, penalti, dan bola mati." }
+    }
+  },
+  "shots": {
+    "eyebrow": "DARI DALAM GAME",
+    "title": "LIHAT",
+    "titlePink": "AKSINYA.",
+    "text": "Momen pertandingan, taktik skuad, dan jalan menuju trofi berikutnya.",
+    "items": {
+      "s1": "SUASANA HARI PERTANDINGAN",
+      "s2": "KONTROL INTUITIF",
+      "s3": "GAYA TAKTIK"
+    }
+  },
+  "download": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title1": "PERTANDINGAN BERIKUTMU",
+    "titlePink": "DIMULAI DI SINI.",
+    "text": "Gratis dimainkan. Tersedia di Android dan iOS.",
+    "note": "Berisi iklan dan pembelian dalam aplikasi. Konten dan lisensi dapat berbeda di setiap wilayah."
+  }
 }
 }
