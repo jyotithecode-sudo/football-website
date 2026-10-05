@@ -108,7 +108,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <button className="btn-primary">{t("nav.playNow")}</button>
+          <button className="btn-primary" herf="/shop">{t("nav.playNow")}</button>
         </div>
 
         <button
