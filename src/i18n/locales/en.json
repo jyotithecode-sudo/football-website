@@ -263,5 +263,116 @@
       ]
     }
   }
+},
+"shop": {
+  "hero": {
+    "eyebrow": "GAME FEATURES",
+    "title1": "WEAR",
+    "titlePink": "THE GAME.",
+    "text": "Official Football League 2026 merchandise on Spreadshop."
+  },
+  "collection": {
+    "eyebrow": "EXPLORE THE COLLECTION",
+    "title": "MATCHDAY.",
+    "titlePink": "EVERYDAY.",
+    "text": "Discover your next favourite in the Football League store.",
+    "btn": "Explore on Spreadshop",
+    "items": {
+      "tshirts": "T-SHIRTS",
+      "hoodies": "HOODIES",
+      "accessories": "ACCESSORIES"
+    }
+  }
+},
+"legal": {
+  "eyebrow": "LEGAL",
+  "title": "LEGAL",
+  "titlePink": "INFORMATION",
+  "sections": {
+    "privacy": {
+      "title": "1. Privacy Policy",
+      "blocks": [
+        {
+          "h": "Information We Collect",
+          "p": "We keep data collection minimal. This website may collect basic analytics such as page views, traffic sources, device types, and general error logs. We do not collect personal information such as names, addresses, or payment data."
+        },
+        {
+          "h": "How We Use Information",
+          "p": "Data is used solely to improve website performance, understand traffic patterns, diagnose technical issues, and support marketing for Football League 2026."
+        },
+        {
+          "h": "Cookies & Tracking",
+          "p": "We may use:",
+          "list": [
+            "Google Analytics",
+            "YouTube or TikTok embeds",
+            "App store–related tracking pixels"
+          ],
+          "after": "You may disable cookies in your browser at any time."
+        },
+        {
+          "h": "Third-Party Services",
+          "p": "Our site links to third-party platforms such as Google Play, Apple App Store, YouTube, TikTok, and social media sites. Their respective privacy policies apply."
+        },
+        {
+          "h": "Data Security",
+          "p": "Reasonable security measures are used, though no online service can guarantee 100% protection."
+        },
+        {
+          "h": "Children’s Privacy",
+          "p": "This site is general-audience and not directed at children under 13. No personal data from children is collected."
+        },
+        {
+          "h": "Your Rights",
+          "p": "You may request access or deletion of data or ask about cookies by contacting:",
+          "email": true
+        }
+      ]
+    },
+    "cookies": {
+      "title": "2. Cookie Notice",
+      "blocks": [
+        {
+          "h": "Types of Cookies Used",
+          "list": [
+            "Analytics cookies",
+            "Performance-related cookies",
+            "Embedded media cookies (YouTube, TikTok)",
+            "Outbound tracking cookies for app stores"
+          ]
+        },
+        {
+          "h": "Your Choices",
+          "p": "You can disable cookies in your browser, block third-party cookies, or browse in private mode. Some features (like videos) may be affected."
+        }
+      ]
+    },
+    "licensing": {
+      "title": "3. Licensing & Trademark Disclaimer",
+      "blocks": [
+        {
+          "h": "Licensing Notice",
+          "p": "Football League 2026 may include official Manchester City kits, AS Monaco kits, and certain licensed national team elements. All trademarks, club names, crests, player likenesses, and logos belong to their respective owners."
+        },
+        {
+          "h": "No Unaffiliated Organization Endorsement",
+          "p": "Unless explicitly stated, Football League 2026 is not affiliated with FIFA, UEFA, CONMEBOL, CONCACAF, the Premier League, or any football governing body."
+        },
+        {
+          "h": "Media Rights",
+          "p": "All images, renders, gameplay videos, UI assets, and promotional artwork on this website are owned or properly licensed by Football League. Reuse requires written permission."
+        },
+        {
+          "h": "Fan Content",
+          "p": "Fans may create non-commercial videos, art, or reviews. Commercial use requires prior approval."
+        },
+        {
+          "h": "Contact",
+          "p": "For privacy, licensing, or legal questions, contact:",
+          "email": true
+        }
+      ]
+    }
+  }
 }
 }

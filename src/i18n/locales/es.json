@@ -213,5 +213,116 @@
       ]
     }
   }
+},
+"shop": {
+  "hero": {
+    "eyebrow": "CARACTERÍSTICAS DEL JUEGO",
+    "title1": "VISTE",
+    "titlePink": "EL JUEGO.",
+    "text": "Mercancía oficial de Football League 2026 en Spreadshop."
+  },
+  "collection": {
+    "eyebrow": "EXPLORA LA COLECCIÓN",
+    "title": "DÍA DE PARTIDO.",
+    "titlePink": "TODOS LOS DÍAS.",
+    "text": "Descubre tu próximo favorito en la tienda de Football League.",
+    "btn": "Explorar en Spreadshop",
+    "items": {
+      "tshirts": "CAMISETAS",
+      "hoodies": "SUDADERAS",
+      "accessories": "ACCESORIOS"
+    }
+  }
+},
+"legal": {
+  "eyebrow": "LEGAL",
+  "title": "INFORMACIÓN",
+  "titlePink": "LEGAL",
+  "sections": {
+    "privacy": {
+      "title": "1. Política de privacidad",
+      "blocks": [
+        {
+          "h": "Información que recopilamos",
+          "p": "Mantenemos la recopilación de datos al mínimo. Este sitio web puede recopilar analíticas básicas, como visitas a páginas, fuentes de tráfico, tipos de dispositivo y registros generales de errores. No recopilamos información personal como nombres, direcciones o datos de pago."
+        },
+        {
+          "h": "Cómo usamos la información",
+          "p": "Los datos se utilizan únicamente para mejorar el rendimiento del sitio web, comprender los patrones de tráfico, diagnosticar problemas técnicos y apoyar el marketing de Football League 2026."
+        },
+        {
+          "h": "Cookies y seguimiento",
+          "p": "Podemos utilizar:",
+          "list": [
+            "Google Analytics",
+            "Contenido incrustado de YouTube o TikTok",
+            "Píxeles de seguimiento relacionados con las tiendas de aplicaciones"
+          ],
+          "after": "Puedes desactivar las cookies en tu navegador en cualquier momento."
+        },
+        {
+          "h": "Servicios de terceros",
+          "p": "Nuestro sitio enlaza a plataformas de terceros como Google Play, Apple App Store, YouTube, TikTok y redes sociales. Se aplican sus respectivas políticas de privacidad."
+        },
+        {
+          "h": "Seguridad de los datos",
+          "p": "Se aplican medidas de seguridad razonables, aunque ningún servicio en línea puede garantizar una protección del 100 %."
+        },
+        {
+          "h": "Privacidad de los menores",
+          "p": "Este sitio es para público general y no está dirigido a menores de 13 años. No se recopilan datos personales de menores."
+        },
+        {
+          "h": "Tus derechos",
+          "p": "Puedes solicitar el acceso o la eliminación de tus datos, o consultar sobre cookies, escribiendo a:",
+          "email": true
+        }
+      ]
+    },
+    "cookies": {
+      "title": "2. Aviso de cookies",
+      "blocks": [
+        {
+          "h": "Tipos de cookies utilizadas",
+          "list": [
+            "Cookies de analítica",
+            "Cookies de rendimiento",
+            "Cookies de contenido multimedia incrustado (YouTube, TikTok)",
+            "Cookies de seguimiento de salida hacia tiendas de aplicaciones"
+          ]
+        },
+        {
+          "h": "Tus opciones",
+          "p": "Puedes desactivar las cookies en tu navegador, bloquear las cookies de terceros o navegar en modo privado. Algunas funciones (como los vídeos) pueden verse afectadas."
+        }
+      ]
+    },
+    "licensing": {
+      "title": "3. Licencias y descargo de responsabilidad de marcas",
+      "blocks": [
+        {
+          "h": "Aviso de licencias",
+          "p": "Football League 2026 puede incluir equipaciones oficiales del Manchester City y del AS Mónaco, así como ciertos elementos con licencia de selecciones nacionales. Todas las marcas, nombres de clubes, escudos, imágenes de jugadores y logotipos pertenecen a sus respectivos propietarios."
+        },
+        {
+          "h": "Sin respaldo de organizaciones no afiliadas",
+          "p": "Salvo que se indique expresamente, Football League 2026 no está afiliado a la FIFA, la UEFA, la CONMEBOL, la CONCACAF, la Premier League ni a ningún organismo rector del fútbol."
+        },
+        {
+          "h": "Derechos de medios",
+          "p": "Todas las imágenes, renders, vídeos de juego, recursos de interfaz y material promocional de este sitio web son propiedad de Football League o cuentan con la licencia correspondiente. Su reutilización requiere permiso por escrito."
+        },
+        {
+          "h": "Contenido de los fans",
+          "p": "Los fans pueden crear vídeos, arte o reseñas sin fines comerciales. El uso comercial requiere aprobación previa."
+        },
+        {
+          "h": "Contacto",
+          "p": "Para consultas sobre privacidad, licencias o asuntos legales, contacta con:",
+          "email": true
+        }
+      ]
+    }
+  }
 }
 }

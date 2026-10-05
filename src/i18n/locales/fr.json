@@ -213,5 +213,116 @@
       ]
     }
   }
+},
+"shop": {
+  "hero": {
+    "eyebrow": "FONCTIONNALITÉS DU JEU",
+    "title1": "PORTEZ",
+    "titlePink": "LE JEU.",
+    "text": "Les produits officiels Football League 2026 sur Spreadshop."
+  },
+  "collection": {
+    "eyebrow": "DÉCOUVREZ LA COLLECTION",
+    "title": "JOUR DE MATCH.",
+    "titlePink": "TOUS LES JOURS.",
+    "text": "Trouvez votre prochain coup de cœur dans la boutique Football League.",
+    "btn": "Découvrir sur Spreadshop",
+    "items": {
+      "tshirts": "T-SHIRTS",
+      "hoodies": "SWEATS À CAPUCHE",
+      "accessories": "ACCESSOIRES"
+    }
+  }
+},
+"legal": {
+  "eyebrow": "MENTIONS LÉGALES",
+  "title": "INFORMATIONS",
+  "titlePink": "LÉGALES",
+  "sections": {
+    "privacy": {
+      "title": "1. Politique de confidentialité",
+      "blocks": [
+        {
+          "h": "Informations que nous collectons",
+          "p": "Nous limitons la collecte de données au minimum. Ce site peut collecter des statistiques de base telles que les pages vues, les sources de trafic, les types d'appareils et des journaux d'erreurs généraux. Nous ne collectons pas d'informations personnelles telles que les noms, adresses ou données de paiement."
+        },
+        {
+          "h": "Comment nous utilisons les informations",
+          "p": "Les données sont utilisées uniquement pour améliorer les performances du site, comprendre les tendances de trafic, diagnostiquer les problèmes techniques et soutenir le marketing de Football League 2026."
+        },
+        {
+          "h": "Cookies et suivi",
+          "p": "Nous pouvons utiliser :",
+          "list": [
+            "Google Analytics",
+            "Contenus intégrés YouTube ou TikTok",
+            "Pixels de suivi liés aux boutiques d'applications"
+          ],
+          "after": "Vous pouvez désactiver les cookies dans votre navigateur à tout moment."
+        },
+        {
+          "h": "Services tiers",
+          "p": "Notre site renvoie vers des plateformes tierces telles que Google Play, l'Apple App Store, YouTube, TikTok et les réseaux sociaux. Leurs politiques de confidentialité respectives s'appliquent."
+        },
+        {
+          "h": "Sécurité des données",
+          "p": "Des mesures de sécurité raisonnables sont mises en œuvre, bien qu'aucun service en ligne ne puisse garantir une protection à 100 %."
+        },
+        {
+          "h": "Confidentialité des enfants",
+          "p": "Ce site s'adresse à un public général et ne cible pas les enfants de moins de 13 ans. Aucune donnée personnelle d'enfant n'est collectée."
+        },
+        {
+          "h": "Vos droits",
+          "p": "Vous pouvez demander l'accès à vos données ou leur suppression, ou poser des questions sur les cookies, en contactant :",
+          "email": true
+        }
+      ]
+    },
+    "cookies": {
+      "title": "2. Avis sur les cookies",
+      "blocks": [
+        {
+          "h": "Types de cookies utilisés",
+          "list": [
+            "Cookies d'analyse",
+            "Cookies de performance",
+            "Cookies de médias intégrés (YouTube, TikTok)",
+            "Cookies de suivi sortant vers les boutiques d'applications"
+          ]
+        },
+        {
+          "h": "Vos choix",
+          "p": "Vous pouvez désactiver les cookies dans votre navigateur, bloquer les cookies tiers ou naviguer en mode privé. Certaines fonctionnalités (comme les vidéos) peuvent être affectées."
+        }
+      ]
+    },
+    "licensing": {
+      "title": "3. Licences et avis de non-responsabilité sur les marques",
+      "blocks": [
+        {
+          "h": "Avis de licence",
+          "p": "Football League 2026 peut inclure des maillots officiels de Manchester City et de l'AS Monaco, ainsi que certains éléments sous licence d'équipes nationales. Toutes les marques, noms de clubs, écussons, images de joueurs et logos appartiennent à leurs propriétaires respectifs."
+        },
+        {
+          "h": "Absence de soutien d'organisations non affiliées",
+          "p": "Sauf mention expresse, Football League 2026 n'est affilié ni à la FIFA, ni à l'UEFA, ni à la CONMEBOL, ni à la CONCACAF, ni à la Premier League, ni à aucune instance dirigeante du football."
+        },
+        {
+          "h": "Droits sur les médias",
+          "p": "Toutes les images, rendus, vidéos de gameplay, éléments d'interface et visuels promotionnels de ce site appartiennent à Football League ou sont dûment sous licence. Toute réutilisation nécessite une autorisation écrite."
+        },
+        {
+          "h": "Contenus des fans",
+          "p": "Les fans peuvent créer des vidéos, des œuvres ou des critiques à but non commercial. Tout usage commercial nécessite une autorisation préalable."
+        },
+        {
+          "h": "Contact",
+          "p": "Pour toute question relative à la confidentialité, aux licences ou aux aspects juridiques, contactez :",
+          "email": true
+        }
+      ]
+    }
+  }
 }
 }

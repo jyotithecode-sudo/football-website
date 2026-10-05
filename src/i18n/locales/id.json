@@ -213,5 +213,116 @@
       ]
     }
   }
+},
+"shop": {
+  "hero": {
+    "eyebrow": "FITUR GAME",
+    "title1": "KENAKAN",
+    "titlePink": "GAME-NYA.",
+    "text": "Merchandise resmi Football League 2026 di Spreadshop."
+  },
+  "collection": {
+    "eyebrow": "JELAJAHI KOLEKSI",
+    "title": "HARI PERTANDINGAN.",
+    "titlePink": "SETIAP HARI.",
+    "text": "Temukan favorit barumu di toko Football League.",
+    "btn": "Jelajahi di Spreadshop",
+    "items": {
+      "tshirts": "KAOS",
+      "hoodies": "HOODIE",
+      "accessories": "AKSESORIS"
+    }
+  }
+},
+"legal": {
+  "eyebrow": "HUKUM",
+  "title": "INFORMASI",
+  "titlePink": "HUKUM",
+  "sections": {
+    "privacy": {
+      "title": "1. Kebijakan Privasi",
+      "blocks": [
+        {
+          "h": "Informasi yang Kami Kumpulkan",
+          "p": "Kami meminimalkan pengumpulan data. Situs web ini dapat mengumpulkan analitik dasar seperti tampilan halaman, sumber lalu lintas, jenis perangkat, dan log kesalahan umum. Kami tidak mengumpulkan informasi pribadi seperti nama, alamat, atau data pembayaran."
+        },
+        {
+          "h": "Cara Kami Menggunakan Informasi",
+          "p": "Data digunakan semata-mata untuk meningkatkan kinerja situs web, memahami pola lalu lintas, mendiagnosis masalah teknis, dan mendukung pemasaran Football League 2026."
+        },
+        {
+          "h": "Cookie & Pelacakan",
+          "p": "Kami dapat menggunakan:",
+          "list": [
+            "Google Analytics",
+            "Konten sematan YouTube atau TikTok",
+            "Piksel pelacakan terkait toko aplikasi"
+          ],
+          "after": "Anda dapat menonaktifkan cookie di browser kapan saja."
+        },
+        {
+          "h": "Layanan Pihak Ketiga",
+          "p": "Situs kami menautkan ke platform pihak ketiga seperti Google Play, Apple App Store, YouTube, TikTok, dan situs media sosial. Kebijakan privasi masing-masing platform berlaku."
+        },
+        {
+          "h": "Keamanan Data",
+          "p": "Langkah-langkah keamanan yang wajar diterapkan, meskipun tidak ada layanan online yang dapat menjamin perlindungan 100%."
+        },
+        {
+          "h": "Privasi Anak",
+          "p": "Situs ini ditujukan untuk khalayak umum dan tidak ditujukan untuk anak di bawah 13 tahun. Tidak ada data pribadi anak yang dikumpulkan."
+        },
+        {
+          "h": "Hak Anda",
+          "p": "Anda dapat meminta akses atau penghapusan data, atau bertanya tentang cookie, dengan menghubungi:",
+          "email": true
+        }
+      ]
+    },
+    "cookies": {
+      "title": "2. Pemberitahuan Cookie",
+      "blocks": [
+        {
+          "h": "Jenis Cookie yang Digunakan",
+          "list": [
+            "Cookie analitik",
+            "Cookie terkait kinerja",
+            "Cookie media sematan (YouTube, TikTok)",
+            "Cookie pelacakan keluar untuk toko aplikasi"
+          ]
+        },
+        {
+          "h": "Pilihan Anda",
+          "p": "Anda dapat menonaktifkan cookie di browser, memblokir cookie pihak ketiga, atau menjelajah dalam mode pribadi. Beberapa fitur (seperti video) mungkin terpengaruh."
+        }
+      ]
+    },
+    "licensing": {
+      "title": "3. Lisensi & Penafian Merek Dagang",
+      "blocks": [
+        {
+          "h": "Pemberitahuan Lisensi",
+          "p": "Football League 2026 dapat menyertakan jersei resmi Manchester City, jersei AS Monaco, dan elemen tim nasional tertentu yang berlisensi. Semua merek dagang, nama klub, lambang, rupa pemain, dan logo adalah milik pemiliknya masing-masing."
+        },
+        {
+          "h": "Tidak Ada Dukungan dari Organisasi yang Tidak Berafiliasi",
+          "p": "Kecuali dinyatakan secara tegas, Football League 2026 tidak berafiliasi dengan FIFA, UEFA, CONMEBOL, CONCACAF, Premier League, atau badan pengatur sepak bola mana pun."
+        },
+        {
+          "h": "Hak Media",
+          "p": "Semua gambar, render, video gameplay, aset UI, dan materi promosi di situs web ini dimiliki atau dilisensikan secara sah oleh Football League. Penggunaan ulang memerlukan izin tertulis."
+        },
+        {
+          "h": "Konten Penggemar",
+          "p": "Penggemar boleh membuat video, karya seni, atau ulasan nonkomersial. Penggunaan komersial memerlukan persetujuan terlebih dahulu."
+        },
+        {
+          "h": "Kontak",
+          "p": "Untuk pertanyaan seputar privasi, lisensi, atau hukum, hubungi:",
+          "email": true
+        }
+      ]
+    }
+  }
 }
 }

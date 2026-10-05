@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../ShopPage.css";
 
 // Client se existing Spreadshop ka asli link lekar yahan daalo
@@ -6,45 +7,47 @@ const SPREADSHOP_URL = "https://your-store.myspreadshop.com";
 
 const COLLECTIONS = [
   {
+    key: "tshirts",
     image: "/images/shop-tshirts.png",
-    title: "T-SHIRTS",
-    href: `${SPREADSHOP_URL}`, // chaho to category link: `${SPREADSHOP_URL}/t-shirts`
+    href: SPREADSHOP_URL, // chaho to category link: `${SPREADSHOP_URL}/t-shirts`
   },
   {
+    key: "hoodies",
     image: "/images/shop-hoodies.png",
-    title: "HOODIES",
-    href: `${SPREADSHOP_URL}`,
+    href: SPREADSHOP_URL,
   },
   {
+    key: "accessories",
     image: "/images/shop-accessories.png",
-    title: "ACCESSORIES",
-    href: `${SPREADSHOP_URL}`,
+    href: SPREADSHOP_URL,
   },
 ];
 
 export default function ShopPage() {
+  const { t } = useTranslation();
+
   return (
     <>
       {/* ---------- Hero (Wear the Game.) ---------- */}
       <section className="shop-hero">
         <div className="shop-hero-container">
           <div className="shop-hero-content">
-            <p className="shop-hero-eyebrow">GAME FEATURES</p>
+            <p className="shop-hero-eyebrow">{t("shop.hero.eyebrow")}</p>
 
             <h1 className="shop-hero-title">
-              WEAR
+              {t("shop.hero.title1")}
               <br />
-              <span className="shop-hero-title-pink">THE GAME.</span>
+              <span className="shop-hero-title-pink">
+                {t("shop.hero.titlePink")}
+              </span>
             </h1>
 
-            <p className="shop-hero-text">
-              Official Football League 2026 merchandise on Spreadshop.
-            </p>
+            <p className="shop-hero-text">{t("shop.hero.text")}</p>
           </div>
 
           <img
             src="/images/tshirt.png"
-            alt="Football League 2026 t-shirt, hoodie and cap"
+            alt=""
             className="shop-hero-products"
           />
 
@@ -63,28 +66,33 @@ export default function ShopPage() {
 
         <div className="collection-container">
           <div className="collection-header">
-            <p className="collection-eyebrow">EXPLORE THE COLLECTION</p>
-            <h2 className="collection-title">
-              MATCHDAY. <span className="collection-title-pink">EVERYDAY.</span>
-            </h2>
-            <p className="collection-text">
-              Discover your next favourite in the Football League store.
+            <p className="collection-eyebrow">
+              {t("shop.collection.eyebrow")}
             </p>
+            <h2 className="collection-title">
+              {t("shop.collection.title")}{" "}
+              <span className="collection-title-pink">
+                {t("shop.collection.titlePink")}
+              </span>
+            </h2>
+            <p className="collection-text">{t("shop.collection.text")}</p>
           </div>
 
           <div className="collection-cards">
             {COLLECTIONS.map((item) => (
-              <div key={item.title} className="collection-card">
+              <div key={item.key} className="collection-card">
                 <div className="collection-card-image-wrap">
                   <img
                     src={item.image}
-                    alt={item.title}
+                    alt={t(`shop.collection.items.${item.key}`)}
                     className="collection-card-image"
                   />
                 </div>
 
                 <div className="collection-card-body">
-                  <h3 className="collection-card-title">{item.title}</h3>
+                  <h3 className="collection-card-title">
+                    {t(`shop.collection.items.${item.key}`)}
+                  </h3>
                   <span className="collection-card-line" />
 
                   <a
@@ -93,7 +101,7 @@ export default function ShopPage() {
                     rel="noopener noreferrer"
                     className="collection-card-btn"
                   >
-                    Explore on spreadshop
+                    {t("shop.collection.btn")}
                   </a>
                 </div>
               </div>
