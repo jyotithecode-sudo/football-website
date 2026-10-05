@@ -145,5 +145,73 @@
     "titlePink": "LEBIH BANYAK KONEKSI.",
     "text": "Bergabunglah dalam percakapan bersama pemain Football League."
   }
+},
+"news": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / BERITA",
+    "title1": "TETAP UPDATE",
+    "titlePink": "DI GAME.",
+    "text": "Pembaruan game, fitur baru, event, dan pengumuman."
+  },
+  "featured": {
+    "eyebrow": "PENGUMUMAN UTAMA",
+    "title1": "KLUB BARU.",
+    "titlePink": "GAIRAH YANG SAMA.",
+    "text": "Manchester City dan AS Monaco hadir dengan konten klub yang otentik. Jalani musim dengan warna klubmu.",
+    "btn": "Lihat pengumuman"
+  },
+  "league": {
+    "title": "DARI",
+    "titlePink": "LIGA.",
+    "link": "Lihat pengumuman resmi",
+    "archive": "Jelajahi arsip berita"
+  },
+  "filters": {
+    "All": "Semua",
+    "Updates": "Pembaruan",
+    "Features": "Fitur",
+    "Events": "Event",
+    "Announcements": "Pengumuman"
+  },
+  "cta": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title": "GAME",
+    "titlePink": "TERUS BERLANJUT.",
+    "text": "Bergabunglah dengan komunitas Football League.",
+    "btn": "Gabung komunitas"
+  },
+  "article": {
+    "back": "Kembali ke semua berita",
+    "notFound": "ARTIKEL TIDAK DITEMUKAN"
+  },
+  "titles": {
+    "clubs": "KLUB BARU BERGABUNG DI FOOTBALL LEAGUE 2026",
+    "event": "EVENT MUSIMAN: BENTROKAN LAMPU STADION",
+    "update10": "PEMBARUAN 10: PENYEMPURNAAN GAMEPLAY",
+    "update9": "PEMBARUAN 9: PENYEMPURNAAN GAMEPLAY"
+  },
+  "bodies": {
+    "clubs": {
+      "desc": "Kami memperluas daftar klub dan liga berinspirasi resmi di berbagai wilayah, lengkap dengan lambang dan warna baru.",
+      "content": [
+        "Football League x Manchester City: Sang Juara Bergabung ke Game. Pemain kini dapat bertanding dengan jersei City yang otentik, menggunakan lambang resmi klub, dan mengakses item dalam game baru yang terinspirasi dari salah satu tim tersukses di sepak bola modern. Baik saat membangun skuad baru maupun mengejar trofi di mode favoritmu, kini kamu bisa membawa gaya main Manchester City yang cepat dan mengalir ke lapangan FL. “Sky Blues” resmi hadir di dalam game.",
+        "Masuk ke Football League 2026, coba perubahan terbaru, dan bagikan masukanmu kepada kami melalui kanal komunitas kami."
+      ]
+    },
+    "event": {
+      "desc": "Ikuti event terbatas dengan pertandingan malam, hadiah yang ditingkatkan, dan target bertema dengan kosmetik eksklusif.",
+      "content": [
+        "Ikuti event terbatas dengan pertandingan malam, hadiah yang ditingkatkan, dan target bertema dengan kosmetik eksklusif.",
+        "Selesaikan tantangan, naiki peringkat event, dan bagikan momen terbaikmu dengan komunitas."
+      ]
+    },
+    "update": {
+      "desc": "Kami menyesuaikan gerakan pemain, bantuan umpan, dan posisi bertahan untuk menghadirkan pengalaman bermain yang lebih mulus dan responsif.",
+      "content": [
+        "Kami menyesuaikan gerakan pemain, bantuan umpan, dan posisi bertahan untuk menghadirkan pengalaman bermain yang lebih mulus dan responsif.",
+        "Perbarui game, coba perubahan terbaru, dan bagikan masukanmu kepada kami melalui kanal komunitas kami."
+      ]
+    }
+  }
 }
 }

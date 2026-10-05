@@ -145,5 +145,73 @@
     "titlePink": "MÁS CONEXIONES.",
     "text": "Únete a la conversación con jugadores de Football League."
   }
+},
+"news": {
+  "hero": {
+    "eyebrow": "FOOTBALL LEAGUE 2026 / NOTICIAS",
+    "title1": "MANTENTE EN",
+    "titlePink": "EL JUEGO.",
+    "text": "Actualizaciones del juego, nuevas características, eventos y anuncios."
+  },
+  "featured": {
+    "eyebrow": "ANUNCIO DESTACADO",
+    "title1": "NUEVOS CLUBES.",
+    "titlePink": "LA MISMA PASIÓN.",
+    "text": "Manchester City y AS Mónaco llegan con contenido auténtico de los clubes. Afronta la temporada con los colores de tu club.",
+    "btn": "Ver anuncio"
+  },
+  "league": {
+    "title": "DESDE LA",
+    "titlePink": "LIGA.",
+    "link": "Ver anuncio oficial",
+    "archive": "Explorar el archivo de noticias"
+  },
+  "filters": {
+    "All": "Todo",
+    "Updates": "Actualizaciones",
+    "Features": "Características",
+    "Events": "Eventos",
+    "Announcements": "Anuncios"
+  },
+  "cta": {
+    "eyebrow": "FOOTBALL LEAGUE 2026",
+    "title": "EL JUEGO",
+    "titlePink": "CONTINÚA.",
+    "text": "Únete a la comunidad de Football League.",
+    "btn": "Unirse a la comunidad"
+  },
+  "article": {
+    "back": "Volver a todas las noticias",
+    "notFound": "ARTÍCULO NO ENCONTRADO"
+  },
+  "titles": {
+    "clubs": "NUEVOS CLUBES SE UNEN A FOOTBALL LEAGUE 2026",
+    "event": "EVENTO DE TEMPORADA: CHOQUE DE LUCES DEL ESTADIO",
+    "update10": "ACTUALIZACIÓN 10: AJUSTES DE JUGABILIDAD",
+    "update9": "ACTUALIZACIÓN 9: AJUSTES DE JUGABILIDAD"
+  },
+  "bodies": {
+    "clubs": {
+      "desc": "Ampliamos nuestra lista de clubes y ligas de inspiración oficial en varias regiones, con escudos y colores renovados.",
+      "content": [
+        "Football League x Manchester City: los campeones se unen al juego. Los jugadores ya pueden competir con las auténticas equipaciones del City, usar el escudo oficial del club y acceder a nuevos objetos inspirados en uno de los equipos modernos más exitosos del fútbol. Tanto si estás formando una nueva plantilla como si persigues trofeos en tus modos favoritos, ahora puedes llevar al campo de FL el estilo de juego rápido y fluido del Manchester City. Los «Sky Blues» ya están oficialmente en el juego.",
+        "Entra en Football League 2026, prueba los últimos cambios y comparte tus opiniones con nosotros en nuestros canales de la comunidad."
+      ]
+    },
+    "event": {
+      "desc": "Participa en un evento por tiempo limitado con partidos nocturnos, recompensas mejoradas y objetivos temáticos con cosméticos exclusivos.",
+      "content": [
+        "Participa en un evento por tiempo limitado con partidos nocturnos, recompensas mejoradas y objetivos temáticos con cosméticos exclusivos.",
+        "Completa desafíos, sube en la clasificación del evento y comparte tus mejores momentos con la comunidad."
+      ]
+    },
+    "update": {
+      "desc": "Hemos ajustado el movimiento de los jugadores, las asistencias de pase y el posicionamiento defensivo para lograr una experiencia de partido más fluida y receptiva.",
+      "content": [
+        "Hemos ajustado el movimiento de los jugadores, las asistencias de pase y el posicionamiento defensivo para lograr una experiencia de partido más fluida y receptiva.",
+        "Actualiza el juego, prueba los últimos cambios y comparte tus opiniones con nosotros en nuestros canales de la comunidad."
+      ]
+    }
+  }
 }
 }

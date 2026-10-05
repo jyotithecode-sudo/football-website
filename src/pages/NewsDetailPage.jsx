@@ -1,13 +1,14 @@
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { NEWS } from "../newsData";
 import "../NewsPage.css";
 
 export default function NewsDetailPage() {
   const { id } = useParams();
+  const { t } = useTranslation();
   const article = NEWS.find((n) => String(n.id) === id);
 
-  // Page khulte hi upar se shuru ho
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -18,31 +19,35 @@ export default function NewsDetailPage() {
         <div className="article-container">
           <div className="article-card">
             <Link to="/news" className="article-back">
-              <span>←</span> Back to all news
+              <span>←</span> {t("news.article.back")}
             </Link>
-            <h1 className="article-title">ARTICLE NOT FOUND</h1>
+            <h1 className="article-title">{t("news.article.notFound")}</h1>
           </div>
         </div>
       </section>
     );
   }
 
+  const paragraphs = t(`news.bodies.${article.bodyKey}.content`, {
+    returnObjects: true,
+  });
+  const title = t(`news.titles.${article.titleKey}`);
+
   return (
     <section className="article-section">
       <div className="article-container">
         <article className="article-card">
           <Link to="/news" className="article-back">
-            <span>←</span> Back to all news
+            <span>←</span> {t("news.article.back")}
           </Link>
 
-          <h1 className="article-title">{article.title}</h1>
+          <h1 className="article-title">{title}</h1>
 
-          <img src={article.image} alt={article.title} className="article-image" />
+          <img src={article.image} alt={title} className="article-image" />
 
           <div className="article-text">
-            {article.content.map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
+            {Array.isArray(paragraphs) &&
+              paragraphs.map((p, i) => <p key={i}>{p}</p>)}
           </div>
         </article>
       </div>
