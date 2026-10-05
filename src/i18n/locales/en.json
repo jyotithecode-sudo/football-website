@@ -373,5 +373,181 @@
       ]
     }
   }
+},
+"terms": {
+  "eyebrow": "LEGAL",
+  "title": "TERMS &",
+  "titlePink": "CONDITIONS",
+  "sections": [
+    {
+      "h": "1. Introduction",
+      "p": [
+        "Welcome to Football League 2026. By accessing or using this website, you agree to comply with and be bound by these Terms & Conditions.",
+        "If you do not agree with any part of these terms, please do not use this website.",
+        "These Terms & Conditions apply to the Football League 2026 website, its content, features, promotional materials, and links to third-party services."
+      ]
+    },
+    {
+      "h": "2. Website Use",
+      "p": [
+        "You may use this website for lawful, personal, and informational purposes.",
+        "You agree not to:"
+      ],
+      "list": [
+        "Use the website for unlawful or fraudulent purposes.",
+        "Attempt to gain unauthorized access to the website, servers, or systems.",
+        "Interfere with or disrupt website functionality.",
+        "Copy, reproduce, modify, or distribute website content without permission.",
+        "Use automated systems to scrape or collect website content without authorization.",
+        "Upload or transmit malicious software, viruses, or harmful code.",
+        "Misrepresent your relationship with Football League 2026."
+      ],
+      "after": [
+        "We reserve the right to restrict or terminate access to the website if these terms are violated."
+      ]
+    },
+    {
+      "h": "3. Website Content",
+      "p": [
+        "The information, images, videos, graphics, game-related materials, trademarks, logos, and other content available on this website are provided for informational and promotional purposes.",
+        "We make reasonable efforts to keep the information accurate and up to date, but we do not guarantee that all content will always be complete, accurate, or current.",
+        "Content may be updated, changed, or removed at any time without prior notice."
+      ]
+    },
+    {
+      "h": "4. Game & Product Information",
+      "p": [
+        "Football League 2026 may include information about game features, gameplay, teams, competitions, kits, players, platforms, and availability.",
+        "Features, content, supported platforms, release information, and other game-related details may change without notice.",
+        "References to clubs, players, competitions, or national teams do not necessarily indicate an official affiliation or endorsement unless specifically stated."
+      ]
+    },
+    {
+      "h": "5. Intellectual Property",
+      "p": [
+        "All original website content, including but not limited to:"
+      ],
+      "list": [
+        "Website design and layouts",
+        "Text and written content",
+        "Graphics and illustrations",
+        "Gameplay materials",
+        "UI elements",
+        "Promotional artwork",
+        "Videos and renders",
+        "Football League branding"
+      ],
+      "after": [
+        "is owned by or properly licensed to Football League, unless otherwise stated.",
+        "You may not reproduce, distribute, modify, sell, or commercially exploit this content without prior written permission."
+      ]
+    },
+    {
+      "h": "6. Third-Party Trademarks",
+      "p": [
+        "Certain club names, logos, kits, player likenesses, national team elements, and other football-related trademarks may belong to their respective owners.",
+        "All third-party trademarks and intellectual property remain the property of their respective owners.",
+        "Nothing on this website should be interpreted as granting ownership or rights to third-party intellectual property."
+      ]
+    },
+    {
+      "h": "7. Third-Party Links & Services",
+      "p": [
+        "This website may contain links, embeds, or references to third-party services, including:"
+      ],
+      "list": [
+        "Google Play",
+        "Apple App Store",
+        "YouTube",
+        "TikTok",
+        "Social media platforms",
+        "Other external websites or services"
+      ],
+      "after": [
+        "These third-party services operate independently and may have their own terms, conditions, and privacy policies.",
+        "Football League 2026 is not responsible for the content, availability, security, or practices of third-party websites or services."
+      ]
+    },
+    {
+      "h": "8. User & Fan Content",
+      "p": [
+        "Fans may create non-commercial content such as gameplay videos, reviews, artwork, streams, and social media content relating to Football League 2026, provided that such content does not violate applicable laws or third-party rights.",
+        "Commercial use of Football League 2026 branding, assets, gameplay materials, or other intellectual property requires prior written permission.",
+        "We reserve the right to request removal of content that infringes intellectual property rights or violates these Terms & Conditions."
+      ]
+    },
+    {
+      "h": "9. Availability & Changes",
+      "p": [
+        "We aim to keep the website available and functioning properly, but we do not guarantee uninterrupted or error-free access.",
+        "The website may occasionally be unavailable because of:"
+      ],
+      "list": [
+        "Maintenance",
+        "Technical issues",
+        "Server problems",
+        "Security updates",
+        "Third-party service interruptions",
+        "Circumstances beyond our reasonable control"
+      ],
+      "after": [
+        "We may modify, suspend, or discontinue any part of the website at any time."
+      ]
+    },
+    {
+      "h": "10. Disclaimer",
+      "p": [
+        "The website and its content are provided on an “as is” and “as available” basis.",
+        "To the extent permitted by applicable law, Football League 2026 does not guarantee that:"
+      ],
+      "list": [
+        "The website will always be available.",
+        "The website will be completely error-free.",
+        "Information will always be accurate or current.",
+        "The website will be free from viruses or other harmful components."
+      ],
+      "after": [
+        "Your use of the website is at your own risk."
+      ]
+    },
+    {
+      "h": "11. Limitation of Liability",
+      "p": [
+        "To the maximum extent permitted by applicable law, Football League 2026 and its owners, developers, partners, and affiliates will not be liable for any direct, indirect, incidental, consequential, or other losses arising from your use of, or inability to use, this website.",
+        "This includes losses resulting from website interruptions, technical errors, third-party services, or reliance on information published on the website."
+      ]
+    },
+    {
+      "h": "12. Privacy",
+      "p": [
+        "Your use of this website is also subject to our Privacy Policy and Cookie Notice.",
+        "These documents explain how information may be collected, used, and processed when you visit the website."
+      ]
+    },
+    {
+      "h": "13. Changes to These Terms",
+      "p": [
+        "We may update these Terms & Conditions from time to time to reflect changes to the website, game, services, legal requirements, or business practices.",
+        "Any updated version will be published on this page. Your continued use of the website after changes are published constitutes acceptance of the updated terms."
+      ]
+    },
+    {
+      "h": "14. Governing Law",
+      "p": [
+        "These Terms & Conditions shall be governed by and interpreted in accordance with applicable laws.",
+        "Any disputes relating to these Terms & Conditions or your use of the website shall be subject to the jurisdiction of the applicable courts."
+      ]
+    },
+    {
+      "h": "15. Contact Us",
+      "p": [
+        "If you have questions regarding these Terms & Conditions, licensing, intellectual property, or other legal matters, please contact us:"
+      ],
+      "email": true,
+      "after": [
+        "Football League 2026"
+      ]
+    }
+  ]
 }
 }
